@@ -8,7 +8,7 @@ for i = 1:6
     for j = 1:6
         v = salinity(j);
         speedOfSound = c(v, u, depth); % calling the function
-        subplot(2,3,i);
+        subplot(3,2,i);
         hold on;
         plot(speedOfSound,-depth,'LineWidth',1.5);
         title(['For temperature = ',num2str(temperature(i))])
@@ -23,8 +23,6 @@ for i = 1:6
         
     end
 end
-
-
 % only visible to all functions in this file
 function speedOfSound = c(S, T, Z)
 speedOfSound = 1449.2 + 4.6*T - 0.055*T.^2 + 0.00029*T.^3 ...
