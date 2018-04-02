@@ -4,14 +4,15 @@ depth = 0:200:1000; % depth varies in steps of 200 from 0 to 1000
 
 
 for i = 1:6
-    u = temperature(i);
+    u = salinity(i);
     for j = 1:6
-        v = salinity(j);
+        v = temperature(j);
         speedOfSound = c(v, u, depth); % calling the function
-        subplot(2,3,i);
+        subplot(3,2,i);
         hold on;
         plot(speedOfSound,-depth,'LineWidth',1.5);
-        
+        title(['For salinity = ',num2str(salinity(i))])
+
         ax = gca; % current axes
         ax.FontSize = 8;
         ax.XLim = [1430 1570];
