@@ -1,5 +1,6 @@
 \contentsline {section}{\numberline {0.1}Sound velocity in ocean}{3}
 \contentsline {section}{\numberline {0.2}Dependence of c on T, S and z }{5}
 \contentsline {section}{\numberline {0.3} MATLAB code for dependence of c on T, S and z }{8}
-\contentsline {subsection}{\numberline {0.3.1}For various values of temperature}{8}
-\contentsline {subsection}{\numberline {0.3.2}For various values of salinity}{9}
+\contentsline {subsection}{\numberline {0.3.1}Function to compute velocity of sound}{8}
+\contentsline {subsection}{\numberline {0.3.2}For various values of temperature}{8}
+\contentsline {subsection}{\numberline {0.3.3}For various values of salinity}{10}
