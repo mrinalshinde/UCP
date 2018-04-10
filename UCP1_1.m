@@ -21,7 +21,7 @@ for i = 1:6
     end
 end
 % labelling of waveforms
-hL = legend('S = 10', 'S = 15', 'S = 20', 'S = 25','S = 30', 'S = 35') 
+hL = legend('S = 10', 'S = 15', 'S = 20', 'S = 25','S = 30', 'S = 35');
 newPosition = [0.85 0.85 0.2 0.2];
 newUnits = 'normalized';
 set(hL,'Position', newPosition,'Units', newUnits);

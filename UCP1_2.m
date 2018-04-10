@@ -6,7 +6,7 @@ for i = 1:6
     u = salinity(i);
     for j = 1:6
         v = temperature(j);
-        c = speedOfSound(v, u, depth); % calling the function
+        c = speedOfSound(u, v, depth); % calling the function
         subplot(3,2,i);
         hold on;
         plot(c,-depth,'LineWidth',1.5);
@@ -18,7 +18,7 @@ for i = 1:6
         xlabel('Speed of sound, c (m/s)')
     end
 end
-hL = legend('T = 5', 'T = 10', 'T = 15', 'T = 20','T = 25', 'T = 30')
+hL = legend('T = 5', 'T = 10', 'T = 15', 'T = 20','T = 25', 'T = 30');
 newPosition = [0.85 0.85 0.2 0.2];
 newUnits = 'normalized';
 set(hL,'Position', newPosition,'Units', newUnits);
