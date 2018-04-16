@@ -1,18 +1,47 @@
 %DO NOT MESS AROUND WITH THE CODE ON THIS PAGE UNLESS YOU %REALLY KNOW WHAT YOU ARE DOING
 \chapter{Theory} \label{Theory}
 
-\noindent Variations of the sound velocity in the ocean are relatively small due to low absorption compared to speed of light in water. Blue-green light has the lowest attenuation in water upto 20m while sound can travel upto 100km one way and hence sonar is used to navigate, communicate with or detect objects on or under the surface of the water. Sound velocity in ocean lies between about 1450 m/s and 1540 m/s. Even though the changes of sound speed are small, i.e.  $\leq$ $\pm 3$\%, the propagation of sound can be significantly affected.
+\section{ Sound attenuation in water } \label{ Sound attenuation in water }
 
-\noindent The sound velocity can be directly measured by velocimeters or calculated by empirical formulae if the temperature, salinity and hydrostatic power or depth are known. However, the error of measurements by modern velocimeters is about 0.1 m/s. The accuracy of calculations by the most complete empirical formulae is about the same. Also formulae providing such high accuracy are very cumbersome. 
+\noindent An acoustic signal underwater experiences attenuation due to spreading and absorption. The acoustic energy of a sound wave propagating in the ocean is partly absorbed, i.e. the energy is transformed into heat and partly lost due to sound scattering by in homogeneities. On the basis of extensive laboratory and field experiments the following empirical formulae for attenuation coefficient in sea water have been derived. Sound absorption in sea water is a function of frequency, temperature, salinity, pH, and pressure. When the acoustic wave propagates in sea water, absorption loss occurs, which is caused by a part of the energy changing into the heat owing to the viscous friction of the water molecule, aside from the spreading loss. The absorption loss is represented as $\alpha$ r, where  $\alpha$ is the coefficient in dB/Km  and r is the transmission distance.
 
-\noindent A less accurate but simpler equation is given by:
+\subsection{ Thorp formula } \label{ Thorp formula }
 
-c = 1449.2 + 4.6T $-$ $0.055T^2$ + $0.00029T^3$ + $(1.34 -0.01T) (S-35)$ + 0.016z \\
-\noindent where temperature, T in ($^{\circ}C$), salinity, S in (ppt), depth, z in (m) and sound velocity, c in (m/s) 
+\noindent The absorption coefficient for frequency range 100 Hz to 3 kHz can be expressed empirically using Thorps formula which defines $\alpha_w$ [dB/m] as a function of f [kHz].
 
-\noindent With the following limits: \\
-\noindent 0$^{\circ}C$   $\leq$ T   $\leq$ 35$^{\circ}$C  \\
-\noindent 0 ppt   $\leq$S   $\leq$45 ppt \\
-\noindent 0 m   $\leq$ z   $\leq$1000 m
+\[ \alpha_w  = \frac{0.11 f^2}{1 + f^2} + \frac{44 f^2}{4100 + f^2} \] 
 
-\noindent The function for velocity of sound in ocean and the dependency of nonlinear temperature profile and the depth of the ocean is studied. Two sets of waveforms of c versus z for various sets of T and S are plotted in-order to investigate the dependence of c on T, S and z. Also the waveform for the nonlinear temperature profile and the depth of the ocean is obtained and discussed in the following sections.
+\subsection{ Schulkin and Marsh formula } \label{ Schulkin and Marsh formula }
+
+\noindent The absorption coefficient for frequency range 3 kHz to 500 kHz can be expressed empirically using Schulkin and Marsh model which defines  $\alpha_w$ [dB/m] as a function of f [kHz].
+
+\[ \alpha_w  = 8.686.10^3 (\frac{S A f_t  f^2}{f_t ^2 + f^2} + \frac{B f^2}{f_t})(1 - 6.54.10^{-4} P) \] 
+
+\noindent where  \(A = 2.34.10^{-6}, B = 3.38.10^{-6}\), S in [ppt], f in [kHz], relaxation frequency \(f_t = 21.9.10^\frac{6-1520}{T+273}\) with T in [$^{\circ}$C] for 0 $\leq T \leq$ 30 and the hydrostatic pressure is determined by \( P = 1.01 (1 + z 0.1)\) in [$kg/cm^3 = at$]
+
+\subsection{ Francois and Garrison Formula } \label{ Francois and Garrison Formula }
+
+\noindent  The absorption coefficient for frequency range 100 Hz to 1 MHz can be expressed empirically using Francois and Garrison model which defines  $\alpha_w$ [dB/m] as a function of f [kHz].
+
+\[ \alpha_w  = \frac{ A _1 P_1 f_1 f^2}{f_t1^2 + f^2} + \frac{ A _2 P_2 f_2 f^2}{f_t2^2 + f^2}  + A_3 P_3 f^2 \] 
+
+\noindent The first term gives the sound absorption due to the Boric Acid and second term gives the sound absorption due to the magnesium sulfate. The contribution of sound absorption due to these chemical ingredients has been found to be small. The third term represents the sound absorption due to pure water. The pressure dependency of above equation is shown by P1, P2 and P3 constants .Frequency dependency is given by f1 and f2 which are the relaxation frequencies of Boric Acid and Magnesium sulfate. f is the frequency of sound. The constants A1, A2 and A3 shown are not purely constants but it has been experimentally proved that their values vary with the water properties, like temperature, salinity and pH of water. The total coefficient of absorption of sea water is calculated by considering separately the absorption due to boric acid, magnesium sulphate and pure water. 
+
+\noindent \(A_1 = \frac{8.686}{c} 10^{0.78 ph - 5}, f_1 = 2.8 \sqrt{\frac{S}{35}}10^{4 - \frac{1245}{T+273}}\)
+
+\noindent \( P_1 = 1, c = 1412 +3.21 T + 1.19 S + 0.0167 Z_m\)
+
+\noindent \(A_2 = 21.44\frac{S}{c}(1 + 0.0025 T),  f_2 = \frac{8.17.10^{\frac{8-1990}{T+273}}}{1+0.0018(S-35)}\)
+
+\noindent \( P_2 = 1 - 1.37.10^{-4} z_m + 6.2.10^{-9} z_m^2 \)
+
+\noindent \(A_3 =
+\begin{cases}
+  4.937.10^{-4} - 2.59.10^{-5} T + 9.11.10^{-7} T^2 - 1.5.10^{-8} T^3 & \text{for $T \leq 20$ }\\    
+ 3.964.10^{-4} - 1.146.10^{-5} T + 1.145.10^{-7} T^2 - 6.5.10^{-8} T^3 & \text{for $T \geq 20$ }\\  
+\end{cases}
+\)
+
+\noindent \( P_3 = 1 - 3.83.10^{-5} z_m + 4.9.10^{-10} z_m^2 \)
+
+\noindent with S in [ppt], f in [kHz], T in [$^{\circ}$C]. Furthermore $z_m$, ph and c denote the water depth in [m], the ph-value and the sound speed in [m/s] respectively.
