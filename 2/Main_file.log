@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  17 APR 2018 01:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  17 APR 2018 03:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1112,27 +1112,42 @@ File: ucp2_4.png Graphic file (type png)
  <use ucp2_4.png>
 Package pdftex.def Info: ucp2_4.png used on input line 35.
 (pdftex.def)             Requested size: 433.6013pt x 255.64409pt.
-)
 File: hsb.png Graphic file (type png)
 
 <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 61.
+Package pdftex.def Info: hsb.png used on input line 41.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [10 <./ucp2_4.png (PNG copy)>]
+<ucp2_5.png, id=66, 2890.8pt x 1704.3675pt>
+File: ucp2_5.png Graphic file (type png)
+ <use ucp2_5.png>
+Package pdftex.def Info: ucp2_5.png used on input line 44.
+(pdftex.def)             Requested size: 433.6013pt x 255.64409pt.
+)
+File: hsb.png Graphic file (type png)
+ <use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 61.
+(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
+
+[11 <./ucp2_5.png (PNG copy)>]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
 Chapter 4.
-)
+File: hsb.png Graphic file (type png)
+<use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 11.
+(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
+ [12
+
+
+
+])
 File: hsb.png Graphic file (type png)
  <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 62.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [11
-
-
-
-]
+ [13]
 \openout2 = `Appendix.aux'.
 
  (./Appendix.tex
@@ -1152,7 +1167,7 @@ File: hsb.png Graphic file (type png)
 <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 12.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [12
+ [14
 
 
 
@@ -1167,49 +1182,60 @@ File: hsb.png Graphic file (type png)
  <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 33.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [13])
+ [15])
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 29.
+Package pdftex.def Info: hsb.png used on input line 25.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [14] (./USP2_2.m
+ [16] (./USP2_2.m
 File: hsb.png Graphic file (type png)
  <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 18.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [15])
-(./USP2_3.m
+ [17])
 File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 2.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [16]
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 25.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [17]) (./USP2_4.m
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 3.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
 
-[18]
+<use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 31.
+(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
+ [18] (./USP2_3.m
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 25.
+Package pdftex.def Info: hsb.png used on input line 24.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [19])
-Overfull \hbox (15.11792pt too wide) in paragraph at lines 37--37
-[] \OT1/cmr/bx/n/17.28 MAT-LAB code for de-pen-dence of non linear-temperature
- []
+File: hsb.png Graphic file (type png)
+ <use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 34.
+(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
+ [20]
+(./USP2_4.m
+File: hsb.png Graphic file (type png)
+ <use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 23.
+(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
+ [21])
+File: hsb.png Graphic file (type png)
+ <use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 37.
+(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
+ [22] (./USP2_5.m
+File: hsb.png Graphic file (type png)
+ <use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 23.
+(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
 
-)
+[23]
+File: hsb.png Graphic file (type png)
+ <use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 45.
+(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
+ [24]))
 File: hsb.png Graphic file (type png)
  <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 63.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [20] 
+ [25] 
 AED: lastpage setting LastPage
 (./Main_file.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
 (./chapter4.aux) (./Appendix.aux))
@@ -1218,10 +1244,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17049 strings out of 492995
- 310505 string characters out of 6132704
- 546405 words of memory out of 5000000
- 20233 multiletter control sequences out of 15000+600000
+ 17067 strings out of 492995
+ 310763 string characters out of 6132704
+ 547469 words of memory out of 5000000
+ 20247 multiletter control sequences out of 15000+600000
  10761 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,54p,1090b,2333s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1239,10 +1265,10 @@ exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Main_file.pdf (22 pages, 1781858 bytes).
+Output written on Main_file.pdf (27 pages, 1979347 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

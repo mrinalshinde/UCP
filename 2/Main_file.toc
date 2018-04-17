@@ -10,11 +10,12 @@
 \contentsline {subsection}{\numberline {3.2.1}Dependence on frequency}{8}
 \contentsline {subsection}{\numberline {3.2.2}Dependence on salinity}{9}
 \contentsline {subsection}{\numberline {3.2.3}Dependence on temperature}{10}
-\contentsline {chapter}{\numberline {4}Conclusion}{11}
-\contentsline {chapter}{\numberline {5}Appendix}{12}
-\contentsline {section}{\numberline {5.1} MATLAB code to compare the results of different empirical formulae }{12}
-\contentsline {section}{\numberline {5.2}MATLAB code to investigate the dependence of attenuation coefficient on different parameters for Francois \& Garrison's model}{15}
-\contentsline {subsection}{\numberline {5.2.1}Dependence on frequency}{15}
-\contentsline {subsection}{\numberline {5.2.2}Dependence on salinity}{16}
-\contentsline {subsection}{\numberline {5.2.3}Dependence on temperature}{18}
-\contentsline {section}{\numberline {5.3} MATLAB code for dependence of non linear-temperature profile and depth}{20}
+\contentsline {section}{\numberline {3.3}Attenuation versus frequency graphs for Francois and Garrison's model}{11}
+\contentsline {chapter}{\numberline {4}Conclusion}{12}
+\contentsline {chapter}{\numberline {5}Appendix}{14}
+\contentsline {section}{\numberline {5.1} MATLAB code to compare the results of different empirical formulae }{14}
+\contentsline {section}{\numberline {5.2}MATLAB code to investigate the dependence of attenuation coefficient on different parameters for Francois \& Garrison's model}{17}
+\contentsline {subsection}{\numberline {5.2.1}Dependence on frequency}{17}
+\contentsline {subsection}{\numberline {5.2.2}Dependence on salinity}{19}
+\contentsline {subsection}{\numberline {5.2.3}Dependence on temperature}{21}
+\contentsline {section}{\numberline {5.3} MATLAB code for attenuation versus frequency using Francois and Garrison's model}{23}
