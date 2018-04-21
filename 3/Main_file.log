@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  19 APR 2018 11:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  21 APR 2018 15:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -863,31 +863,21 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 (./Main_file.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
-(./chapter4.aux) (./Appendix.aux
-
-LaTeX Warning: Label `Dependence on frequency' multiply defined.
-
-
-LaTeX Warning: Label `Dependence on salinity' multiply defined.
-
-
-LaTeX Warning: Label `Dependence on temperature' multiply defined.
-
-))
+(./chapter4.aux) (./Appendix.aux))
 \openout1 = `Main_file.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -990,7 +980,7 @@ ABD: EveryShipout initializing macros
 \c@lstlisting=\count148
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 30.
+(lastpage)             ! on input line 31.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1010,15 +1000,13 @@ Package pdftex.def Info: iwss.png used on input line 15.
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./hsb.p
 ng> <./iwss.png>]
-(./Main_file.toc [2
-
-])
+(./Main_file.toc)
 \tf@toc=\write4
 \openout4 = `Main_file.toc'.
 
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 59.
+Package pdftex.def Info: hsb.png used on input line 60.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
 
 
@@ -1027,127 +1015,125 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1]
+[1
+
+]
 \openout2 = `chapter1.aux'.
 
  (./chapter1.tex
 Chapter 1.
+)
 File: hsb.png Graphic file (type png)
-<use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 9.
+ <use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 60.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [2
 
 
-])
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 59.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [3]
+]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
 Chapter 2.
+<scattering.png, id=25, 640.3925pt x 480.79625pt>
+File: scattering.png Graphic file (type png)
+ <use scattering.png>
+Package pdftex.def Info: scattering.png used on input line 9.
+(pdftex.def)             Requested size: 320.19547pt x 240.39752pt.
 File: hsb.png Graphic file (type png)
+
 <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 12.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [4
+ [3
 
 
 
 ]
 File: hsb.png Graphic file (type png)
  <use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 17.
+(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
+ [4 <./scattering.png>]
+File: hsb.png Graphic file (type png)
+ <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 26.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [5])
 File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 60.
+
+<use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 61.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [6]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
 Chapter 3.
-<ucp2_1.png, id=50, 2890.8pt x 1704.3675pt>
-File: ucp2_1.png Graphic file (type png)
- <use ucp2_1.png>
-Package pdftex.def Info: ucp2_1.png used on input line 9.
-(pdftex.def)             Requested size: 433.6013pt x 255.64409pt.
+<ucp1.png, id=49, 2890.8pt x 1704.3675pt>
+File: ucp1.png Graphic file (type png)
+ <use ucp1.png>
+Package pdftex.def Info: ucp1.png used on input line 8.
+(pdftex.def)             Requested size: 520.32156pt x 306.7729pt.
+
+Overfull \hbox (8.17194pt too wide) in paragraph at lines 8--9
+ [][] 
+ []
+
 File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 12.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
-
-[7
-
-
-
-] <ucp2_2.png, id=54, 2890.8pt x 1704.3675pt>
-File: ucp2_2.png Graphic file (type png)
- <use ucp2_2.png>
-Package pdftex.def Info: ucp2_2.png used on input line 18.
-(pdftex.def)             Requested size: 433.6013pt x 255.64409pt.
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 21.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
-
-[8 <./ucp2_1.png (PNG copy)>] <ucp2_3.png, id=58, 2890.8pt x 1704.3675pt>
-File: ucp2_3.png Graphic file (type png)
-
-<use ucp2_3.png>
-Package pdftex.def Info: ucp2_3.png used on input line 26.
-(pdftex.def)             Requested size: 433.6013pt x 255.64409pt.
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 30.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [9 <./ucp2_2.png (PNG copy)> <./ucp2_3.png (PNG copy)>] <ucp2_4.png, id=62, 28
-90.8pt x 1704.3675pt>
-File: ucp2_4.png Graphic file (type png)
- <use ucp2_4.png>
-Package pdftex.def Info: ucp2_4.png used on input line 35.
-(pdftex.def)             Requested size: 433.6013pt x 255.64409pt.
-File: hsb.png Graphic file (type png)
-
 <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 41.
+Package pdftex.def Info: hsb.png used on input line 13.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [10 <./ucp2_4.png (PNG copy)>]
-<ucp2_5.png, id=66, 2890.8pt x 1704.3675pt>
-File: ucp2_5.png Graphic file (type png)
- <use ucp2_5.png>
-Package pdftex.def Info: ucp2_5.png used on input line 44.
-(pdftex.def)             Requested size: 433.6013pt x 255.64409pt.
+ [7
+
+
+
+ <./ucp1.png (PNG copy)>]
+<ucp2.png, id=53, 2890.8pt x 1704.3675pt>
+File: ucp2.png Graphic file (type png)
+ <use ucp2.png>
+Package pdftex.def Info: ucp2.png used on input line 16.
+(pdftex.def)             Requested size: 520.32156pt x 306.7729pt.
+
+Overfull \hbox (8.17194pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
+
+<nonlinear.png, id=54, 2890.8pt x 1704.3675pt>
+File: nonlinear.png Graphic file (type png)
+ <use nonlinear.png>
+Package pdftex.def Info: nonlinear.png used on input line 24.
+(pdftex.def)             Requested size: 520.32156pt x 306.7729pt.
+
+Overfull \hbox (8.17194pt too wide) in paragraph at lines 24--25
+ [][] 
+ []
+
 )
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 61.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
-
-[11 <./ucp2_5.png (PNG copy)>]
-\openout2 = `chapter4.aux'.
-
- (./chapter4.tex
-Chapter 4.
-File: hsb.png Graphic file (type png)
-<use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 11.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [12
-
-
-
-])
 File: hsb.png Graphic file (type png)
  <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 62.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [13]
+ [8 <./ucp2.png (PNG copy)>]
+File: hsb.png Graphic file (type png)
+ <use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 62.
+(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
+ [9 <./nonlinear.png (PNG copy)>]
+\openout2 = `chapter4.aux'.
+
+ (./chapter4.tex
+Chapter 4.
+)
+File: hsb.png Graphic file (type png)
+ <use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 63.
+(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
+ [10
+
+
+
+]
 \openout2 = `Appendix.aux'.
 
  (./Appendix.tex
@@ -1155,120 +1141,68 @@ Chapter 5.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(./USP2_1.m
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+(./speedOfSound.m
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+) (./UCP1_1.m
 File: hsb.png Graphic file (type png)
-
-<use hsb.png>
+ <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 12.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [14
+ [11
 
 
 
-]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 20.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 20.
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 33.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [15])
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 25.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [16] (./USP2_2.m
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 18.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [17])
-File: hsb.png Graphic file (type png)
+]) (./UCP1_2.m)
+Overfull \hbox (15.11792pt too wide) in paragraph at lines 35--35
+[] \OT1/cmr/bx/n/17.28 MAT-LAB code for de-pen-dence of non linear-temperature
+ []
 
+File: hsb.png Graphic file (type png)
 <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 31.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [18] (./USP2_3.m
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 24.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [19])
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 34.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [20]
-(./USP2_4.m
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 23.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [21])
-File: hsb.png Graphic file (type png)
- <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 37.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [22] (./USP2_5.m
+ [12] (./nonlinear.m))
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 23.
+Package pdftex.def Info: hsb.png used on input line 64.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
+ [13]
 
-[23]
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 45.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [24]))
-File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 63.
-(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [25] 
 AED: lastpage setting LastPage
 (./Main_file.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
-(./chapter4.aux) (./Appendix.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(./chapter4.aux) (./Appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 17067 strings out of 492995
- 310763 string characters out of 6132704
- 547470 words of memory out of 5000000
- 20247 multiletter control sequences out of 15000+600000
- 10761 words of font info for 38 fonts, out of 8000000 for 9000
+ 16993 strings out of 492995
+ 309513 string characters out of 6132704
+ 610440 words of memory out of 5000000
+ 20178 multiletter control sequences out of 15000+600000
+ 11763 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,17n,54p,1090b,2333s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Main_file.pdf (27 pages, 1979347 bytes).
+ 55i,17n,54p,894b,1817s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti12.pfb>
+Output written on Main_file.pdf (14 pages, 2065739 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
+ 119 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
