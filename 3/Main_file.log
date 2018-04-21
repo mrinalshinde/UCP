@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  21 APR 2018 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  22 APR 2018 00:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1052,12 +1052,12 @@ Package pdftex.def Info: hsb.png used on input line 12.
 ]
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 17.
+Package pdftex.def Info: hsb.png used on input line 20.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [4 <./scattering.png>]
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 26.
+Package pdftex.def Info: hsb.png used on input line 32.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [5])
 File: hsb.png Graphic file (type png)
@@ -1179,7 +1179,7 @@ AED: lastpage setting LastPage
 Here is how much of TeX's memory you used:
  16993 strings out of 492995
  309513 string characters out of 6132704
- 610440 words of memory out of 5000000
+ 610558 words of memory out of 5000000
  20178 multiletter control sequences out of 15000+600000
  11763 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1199,7 +1199,7 @@ sfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti12.pfb>
-Output written on Main_file.pdf (14 pages, 2065739 bytes).
+Output written on Main_file.pdf (14 pages, 2067002 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
