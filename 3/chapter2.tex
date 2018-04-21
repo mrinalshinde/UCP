@@ -21,7 +21,7 @@
 \beta  = 4 . (\frac{v_W + 2}{v_W+ 1}) + ( 2.5 ( f + 0.1 )^{\frac{-1}{3}} - 4 ) . cos^{\frac{1}{8}}(\theta)
 \end{align}
  
-\noindent where $ {S_s} $ represents the surface backscattering coefficient in $ [dB/m^2] $. The parameters \textit{f}, ${v_W}$  and  $\theta$ denote the sound frequency in kHz, the wind speed in knots and the grazing angle respectively. 
+\noindent where $ {S_S} $ represents the surface backscattering coefficient in $ [dB/m^2] $. The parameters \textit{f}, ${v_W}$  and  $\theta$ denote the sound frequency in kHz, the wind speed in knots and the grazing angle respectively. 
 
 \subsection{ Bottom Backscattering } \label{ Bottom Backscattering } 
 \noindent Bottom reverberation occurs whenever a sound pulse strikes the ocean bottom. In deep water this condition normally does not cause serious problems, but in shallow water, bottom reverberation can dominate the background and completely mask a close target. 
@@ -35,10 +35,30 @@
  \noindent This is valid for for $0 \leq \theta \leq 60^{\circ}$. K(\textit{f}, \textit{bt}) denotes the scattering coefficient depending on the frequency of sound \textit{f} and bottom type \textit{bt}.
  
 \noindent Due to the empirical definition of K(\textit{f}, \textit{bt}) it is evident that one will have considerable difficulty in determining an appropriate value for the backscattering strength in practice. Therefore, easier applicable and over the entire grazing angle domain sufficient accurate bottom backscattering models are of interest.
- 
- 
- 
 
-\subsection{ Volume Backscattering } \label{ Volume Backscattering } 
+\noindent More accurate bottom scattering curves have been derived from measurements taken from SEARAY Model which is applicable for the frequency range of $20 kHz \leq \textit{f} \leq 500 kHz$ and APL-UW Model which works for the frequency range of $1 kHz \leq \textit{f} \leq 500 kHz$
+
+\noindent For the SEARAY Model the reverberation coefficient is defined by 
+\begin{align}
+{S_B}  = 10 . log_{10}( 3.03  \beta  \textit{ f } ^{ 3.2 - 0.8 \textit{bt} } 10^{2.8 \textit{bt} - 12} + 10^{-4.42})\end{align}
+\noindent with
+\begin{align}
+\beta = \gamma (sin(\theta) + 0.19)^{\textit{bt}cos^{16}(\theta)}
+\end{align}
+\noindent and
+\begin{align}
+\gamma = 1 + 125 . exp( -2.64 . (\textit{bt}-1.75)^{2} - \frac{50}{\textit{bt}} . cot^{2}(\theta))
+\end{align}
+ \noindent where \textit{f}, \textit{bt} and $\theta$ denote the sound frequency in kHz, the bottom type and the grazing angle respectively. And \textit{bt} can be any real number satisfying $1 \leq \textit{bt} \leq 4.$
+
+
+ \subsection{ Volume Backscattering } \label{ Volume Backscattering } 
+ \noindent Volume reverberation is caused by various reflectors, but fish and other marine organisms are the major contributors. Additional causes are suspended solids, bubbles, and water masses of markedly different temperatures. Volume reverberation is always present during active sonar operations, but is not normally a serious factor in masking target echoes. The one exception involves the deep scattering layer (DSL), which is a relatively dense layer of marine life present in most areas of the ocean. During daylight hours, the layer is generally located at depths of about 600 meters and does not pose a serious problem. At night, however, the layer migrates toward the surface and becomes a major source of reverberation. 
+
+\noindent The volume reverberation can be modeled by the so-called volume reverberation coefficient.
+\begin{align}
+{S_V} = {S_p} + 7 log_{10}(\textit{f})
+\end{align}
+\noindent where \textit{f} and ${S_p}$indicate the frequency in kHz and the particle contribution in $[dB/m^3].$ The particle contribution parameter ${S_p}$ is $-50 dB$ for high particle density, $-70 dB$ for moderate particle density and $-90 dB$ for low particle density.
 
 
