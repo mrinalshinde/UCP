@@ -7,8 +7,10 @@
 \contentsline {chapter}{\numberline {3}Experimental research}{8}
 \contentsline {chapter}{\numberline {4}Conclusion}{11}
 \contentsline {chapter}{\numberline {5}Appendix}{12}
-\contentsline {section}{\numberline {5.1} MATLAB code for dependence of c on T, S and z }{12}
-\contentsline {subsection}{\numberline {5.1.1}Function to compute velocity of sound}{12}
-\contentsline {subsection}{\numberline {5.1.2}For various values of temperature}{12}
-\contentsline {subsection}{\numberline {5.1.3}For various values of salinity}{13}
-\contentsline {section}{\numberline {5.2} MATLAB code for dependence of non linear-temperature profile and depth}{14}
+\contentsline {section}{\numberline {5.1} MATLAB code to plot surface reverberation coefficient versus grazing angle }{12}
+\contentsline {subsection}{\numberline {5.1.1} Dependency on frequency }{12}
+\contentsline {subsection}{\numberline {5.1.2} Dependency on windspeed }{13}
+\contentsline {section}{\numberline {5.2} MATLAB code to plot bottom reverberation coefficient versus grazing angle }{14}
+\contentsline {subsection}{\numberline {5.2.1} Dependency on frequency }{14}
+\contentsline {subsection}{\numberline {5.2.2} Dependency on bottom type }{14}
+\contentsline {section}{\numberline {5.3} MATLAB code to plot volume reverberation coefficient versus frequency }{15}

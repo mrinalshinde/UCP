@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  22 APR 2018 01:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  22 APR 2018 23:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -862,7 +862,8 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(./Main_file.aux)
+(./Main_file.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
+(./chapter4.aux) (./Appendix.aux))
 \openout1 = `Main_file.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -1145,40 +1146,39 @@ Chapter 5.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(./speedOfSound.m
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
+(./USP3_1.m
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
-) (./UCP1_1.m
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
 File: hsb.png Graphic file (type png)
- <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 12.
+
+<use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 19.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [12
 
 
 
-]) (./UCP1_2.m)
-Overfull \hbox (15.11792pt too wide) in paragraph at lines 35--35
-[] \OT1/cmr/bx/n/17.28 MAT-LAB code for de-pen-dence of non linear-temperature
- []
-
+]) (./UsP3_2.m)
 File: hsb.png Graphic file (type png)
-<use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 37.
+ <use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 34.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [13] (./nonlinear.m))
+ [13] (./UCP1_2.m) (./UCP1_2.m
+File: hsb.png Graphic file (type png)
+
+<use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 13.
+(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
+ [14]) (./nonlinear.m))
 File: hsb.png Graphic file (type png)
  <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 63.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [14]
-
-Package lastpage Warning: Rerun to get the references right on input line 64.
-
+ [15]
 
 AED: lastpage setting LastPage
 (./Main_file.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
@@ -1188,13 +1188,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 16978 strings out of 492995
- 309328 string characters out of 6132704
- 608046 words of memory out of 5000000
- 20173 multiletter control sequences out of 15000+600000
+ 17017 strings out of 492995
+ 309993 string characters out of 6132704
+ 619650 words of memory out of 5000000
+ 20200 multiletter control sequences out of 15000+600000
  11763 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,17n,54p,894b,1817s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,17n,54p,894b,2369s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
@@ -1210,10 +1210,10 @@ xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Main_file.pdf (15 pages, 2080522 bytes).
+Output written on Main_file.pdf (16 pages, 2085785 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 129 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,10 +2,9 @@
 
 \chapter{Appendix} \label{Appendix}
 
-\section{ MATLAB code for dependence of c on T, S and z } \label{MATLAB code for dependence of c on T, S and z }
+\section{ MATLAB code to plot surface reverberation coefficient versus grazing angle } \label{ MATLAB code to plot Surface reverberation coefficient versus grazing angle }
 
-
-\subsection{Function to compute velocity of sound} \label{Function to compute velocity of sound} 
+\subsection{ Dependency on frequency } \label{ Dependency on frequency } 
 \lstset{language=Matlab,%
     %basicstyle=\color{red},
     basicstyle=\tiny,
@@ -24,14 +23,19 @@
     %emph=[2]{word1,word2}, emphstyle=[2]{style},    
 }
 
-\lstinputlisting{speedOfSound.m}
+\lstinputlisting{USP3_1.m}
 
-\subsection{For various values of temperature} \label{For various values of temperature} 
-\lstinputlisting{UCP1_1.m}
+\subsection{ Dependency on windspeed } \label{ Dependency on windspeed } 
+\lstinputlisting{UsP3_2.m}
 
-\subsection{For various values of salinity} \label{For various values of salinity} 
+\section{ MATLAB code to plot bottom reverberation coefficient versus grazing angle } \label{ MATLAB code to plot bottom reverberation coefficient versus grazing angle }
+
+\subsection{ Dependency on frequency } \label{ Dependency on frequency } 
 \lstinputlisting{UCP1_2.m}
 
-\section{ MATLAB code for dependence of non linear-temperature profile and depth} \label{ MATLAB code for dependence of non-linear temperature profile and depth}
+\subsection{ Dependency on bottom type } \label{ Dependency on bottom type } 
+\lstinputlisting{UCP1_2.m}
+
+\section{ MATLAB code to plot volume reverberation coefficient versus frequency } \label{ MATLAB code to plot volume reverberation coefficient versus frequency }
 
 \lstinputlisting{nonlinear.m}
