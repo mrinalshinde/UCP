@@ -5,12 +5,19 @@
 \contentsline {subsection}{\numberline {2.1.2} Bottom Backscattering }{5}
 \contentsline {subsection}{\numberline {2.1.3} Volume Backscattering }{7}
 \contentsline {chapter}{\numberline {3}Experimental research}{8}
-\contentsline {chapter}{\numberline {4}Conclusion}{11}
-\contentsline {chapter}{\numberline {5}Appendix}{12}
-\contentsline {section}{\numberline {5.1} MATLAB code to plot surface reverberation coefficient versus grazing angle }{12}
-\contentsline {subsection}{\numberline {5.1.1} Dependency on frequency }{12}
-\contentsline {subsection}{\numberline {5.1.2} Dependency on windspeed }{13}
-\contentsline {section}{\numberline {5.2} MATLAB code to plot bottom reverberation coefficient versus grazing angle }{14}
-\contentsline {subsection}{\numberline {5.2.1} Dependency on frequency }{14}
-\contentsline {subsection}{\numberline {5.2.2} Dependency on bottom type }{14}
-\contentsline {section}{\numberline {5.3} MATLAB code to plot volume reverberation coefficient versus frequency }{15}
+\contentsline {section}{\numberline {3.1} Surface Backscattering }{8}
+\contentsline {section}{\numberline {3.2} Bottom Backscattering }{10}
+\contentsline {section}{\numberline {3.3} Volume Backscattering }{12}
+\contentsline {chapter}{\numberline {4}Conclusion}{13}
+\contentsline {chapter}{\numberline {5}Appendix}{14}
+\contentsline {section}{\numberline {5.1} MATLAB program to compute surface, bottom and volume reverberation coefficients }{14}
+\contentsline {subsection}{\numberline {5.1.1} Surface reverberation coefficient }{14}
+\contentsline {subsection}{\numberline {5.1.2} Bottom reverberation coefficient }{14}
+\contentsline {subsection}{\numberline {5.1.3} Volume reverberation coefficient }{15}
+\contentsline {section}{\numberline {5.2} MATLAB code to plot surface reverberation coefficient versus grazing angle }{16}
+\contentsline {subsection}{\numberline {5.2.1} Dependency on frequency }{16}
+\contentsline {subsection}{\numberline {5.2.2} Dependency on wind speed }{16}
+\contentsline {section}{\numberline {5.3} MATLAB code to plot bottom reverberation coefficient versus grazing angle }{18}
+\contentsline {subsection}{\numberline {5.3.1} Dependency on frequency }{18}
+\contentsline {subsection}{\numberline {5.3.2} Dependency on bottom type }{18}
+\contentsline {section}{\numberline {5.4} MATLAB code to plot volume reverberation coefficient versus frequency }{20}
