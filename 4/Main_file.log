@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  28 APR 2018 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  28 APR 2018 18:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1033,9 +1033,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1]
 \openout2 = `chapter1.aux'.
 
- (./chapter1.tex
-Chapter 1.
-)
+ (./chapter1.tex)
 File: hsb.png Graphic file (type png)
  <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 59.
@@ -1047,16 +1045,15 @@ Package pdftex.def Info: hsb.png used on input line 59.
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
-Chapter 2.
 <scattering.png, id=28, 640.3925pt x 480.79625pt>
 File: scattering.png Graphic file (type png)
  <use scattering.png>
-Package pdftex.def Info: scattering.png used on input line 9.
+Package pdftex.def Info: scattering.png used on input line 12.
 (pdftex.def)             Requested size: 320.19547pt x 240.39752pt.
 File: hsb.png Graphic file (type png)
 
 <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 12.
+Package pdftex.def Info: hsb.png used on input line 15.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [3
 
@@ -1065,18 +1062,18 @@ Package pdftex.def Info: hsb.png used on input line 12.
 ]
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 20.
+Package pdftex.def Info: hsb.png used on input line 23.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [4 <./scattering.png>]
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 32.
+Package pdftex.def Info: hsb.png used on input line 35.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [5]
 File: hsb.png Graphic file (type png)
 
 <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 51.
+Package pdftex.def Info: hsb.png used on input line 54.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [6])
 File: hsb.png Graphic file (type png)
@@ -1087,20 +1084,19 @@ Package pdftex.def Info: hsb.png used on input line 60.
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
-Chapter 3.
 <usp3_1.png, id=55, 2890.8pt x 1704.3675pt>
 File: usp3_1.png Graphic file (type png)
  <use usp3_1.png>
-Package pdftex.def Info: usp3_1.png used on input line 8.
+Package pdftex.def Info: usp3_1.png used on input line 11.
 (pdftex.def)             Requested size: 520.32156pt x 306.7729pt.
 
-Overfull \hbox (8.17194pt too wide) in paragraph at lines 8--9
+Overfull \hbox (8.17194pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
 File: hsb.png Graphic file (type png)
 <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 11.
+Package pdftex.def Info: hsb.png used on input line 14.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [8
 
@@ -1109,54 +1105,54 @@ Package pdftex.def Info: hsb.png used on input line 11.
 ] <usp3_2.png, id=59, 2890.8pt x 1704.3675pt>
 File: usp3_2.png Graphic file (type png)
  <use usp3_2.png>
-Package pdftex.def Info: usp3_2.png used on input line 14.
+Package pdftex.def Info: usp3_2.png used on input line 17.
 (pdftex.def)             Requested size: 520.32156pt x 306.7729pt.
 
-Overfull \hbox (8.17194pt too wide) in paragraph at lines 14--15
+Overfull \hbox (8.17194pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
 File: hsb.png Graphic file (type png)
 <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 18.
+Package pdftex.def Info: hsb.png used on input line 21.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [9 <./usp3_1.png (PNG copy)> <./usp3_2.png (PNG copy)>]
 <usp3_3.png, id=63, 2890.8pt x 1704.3675pt>
 File: usp3_3.png Graphic file (type png)
  <use usp3_3.png>
-Package pdftex.def Info: usp3_3.png used on input line 25.
+Package pdftex.def Info: usp3_3.png used on input line 28.
 (pdftex.def)             Requested size: 520.32156pt x 306.7729pt.
 
-Overfull \hbox (8.17194pt too wide) in paragraph at lines 25--26
+Overfull \hbox (8.17194pt too wide) in paragraph at lines 28--29
  [][] 
  []
 
 <usp3_4.png, id=64, 2890.8pt x 1704.3675pt>
 File: usp3_4.png Graphic file (type png)
  <use usp3_4.png>
-Package pdftex.def Info: usp3_4.png used on input line 31.
+Package pdftex.def Info: usp3_4.png used on input line 34.
 (pdftex.def)             Requested size: 520.32156pt x 306.7729pt.
 
-Overfull \hbox (8.17194pt too wide) in paragraph at lines 31--32
+Overfull \hbox (8.17194pt too wide) in paragraph at lines 34--35
  [][] 
  []
 
 File: hsb.png Graphic file (type png)
 <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 34.
+Package pdftex.def Info: hsb.png used on input line 37.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [10 <./usp3_3.png (PNG copy)>]
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 35.
+Package pdftex.def Info: hsb.png used on input line 38.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [11 <./usp3_4.png (PNG copy)>] <usp3_5.png, id=72, 2890.8pt x 1704.3675pt>
 File: usp3_5.png Graphic file (type png)
  <use usp3_5.png>
-Package pdftex.def Info: usp3_5.png used on input line 42.
+Package pdftex.def Info: usp3_5.png used on input line 45.
 (pdftex.def)             Requested size: 520.32156pt x 306.7729pt.
 
-Overfull \hbox (8.17194pt too wide) in paragraph at lines 42--43
+Overfull \hbox (8.17194pt too wide) in paragraph at lines 45--46
  [][] 
  []
 
@@ -1168,14 +1164,13 @@ Package pdftex.def Info: hsb.png used on input line 61.
  [12 <./usp3_5.png (PNG copy)>]
 \openout2 = `chapter4.aux'.
 
- (./chapter4.tex
-Chapter 4.
-)
+ (./chapter4.tex)
 File: hsb.png Graphic file (type png)
  <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 62.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [13
+
+[13
 
 
 
@@ -1183,7 +1178,6 @@ Package pdftex.def Info: hsb.png used on input line 62.
 \openout2 = `Appendix.aux'.
 
  (./Appendix.tex
-Chapter 5.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1196,16 +1190,16 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
 )
-(./BottomBackScattering.m
+(./BottomBackScattering.m)
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 7.
+Package pdftex.def Info: hsb.png used on input line 30.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [14
 
 
 
-]) (./volumeBackScattering.m)
+] (./volumeBackScattering.m)
 File: hsb.png Graphic file (type png)
 
 <use hsb.png>
@@ -1247,10 +1241,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17020 strings out of 492995
- 310180 string characters out of 6132704
- 565907 words of memory out of 5000000
- 20191 multiletter control sequences out of 15000+600000
+ 17014 strings out of 492995
+ 310107 string characters out of 6132704
+ 565702 words of memory out of 5000000
+ 20185 multiletter control sequences out of 15000+600000
  11462 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,54p,1027b,1817s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1268,7 +1262,7 @@ xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Main_file.pdf (22 pages, 2469968 bytes).
+Output written on Main_file.pdf (22 pages, 2470114 bytes).
 PDF statistics:
  146 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream

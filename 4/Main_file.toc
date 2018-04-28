@@ -1,0 +1,23 @@
+\contentsline {chapter}{Introduction}{2}
+\contentsline {chapter}{Theory}{3}
+\contentsline {section}{\numberline {0.1} Sound Scattering }{3}
+\contentsline {subsection}{\numberline {0.1.1} Surface Backscattering }{4}
+\contentsline {subsection}{\numberline {0.1.2} Bottom Backscattering }{5}
+\contentsline {subsection}{\numberline {0.1.3} Volume Backscattering }{7}
+\contentsline {chapter}{Experimental Research}{8}
+\contentsline {section}{\numberline {0.2} Surface Backscattering }{8}
+\contentsline {section}{\numberline {0.3} Bottom Backscattering }{10}
+\contentsline {section}{\numberline {0.4} Volume Backscattering }{12}
+\contentsline {chapter}{Conclusion}{13}
+\contentsline {chapter}{Appendix}{14}
+\contentsline {section}{\numberline {0.5} MATLAB program to compute surface, bottom and volume reverberation coefficients }{14}
+\contentsline {subsection}{\numberline {0.5.1} Surface reverberation coefficient }{14}
+\contentsline {subsection}{\numberline {0.5.2} Bottom reverberation coefficient }{14}
+\contentsline {subsection}{\numberline {0.5.3} Volume reverberation coefficient }{15}
+\contentsline {section}{\numberline {0.6} MATLAB code to plot surface reverberation coefficient versus grazing angle }{16}
+\contentsline {subsection}{\numberline {0.6.1} Dependency on frequency }{16}
+\contentsline {subsection}{\numberline {0.6.2} Dependency on wind speed }{16}
+\contentsline {section}{\numberline {0.7} MATLAB code to plot bottom reverberation coefficient versus grazing angle }{18}
+\contentsline {subsection}{\numberline {0.7.1} Dependency on frequency }{18}
+\contentsline {subsection}{\numberline {0.7.2} Dependency on bottom type }{18}
+\contentsline {section}{\numberline {0.8} MATLAB code to plot volume reverberation coefficient versus frequency }{20}
