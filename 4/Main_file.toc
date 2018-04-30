@@ -1,19 +1,9 @@
 \contentsline {chapter}{Introduction}{2}
 \contentsline {chapter}{Theory}{3}
 \contentsline {chapter}{Experimental Research}{6}
-\contentsline {section}{\numberline {0.1} Surface Backscattering }{6}
-\contentsline {section}{\numberline {0.2} Bottom Backscattering }{8}
-\contentsline {section}{\numberline {0.3} Volume Backscattering }{10}
-\contentsline {chapter}{Conclusion}{11}
-\contentsline {chapter}{Appendix}{12}
-\contentsline {section}{\numberline {0.4} MATLAB program to compute surface, bottom and volume reverberation coefficients }{12}
-\contentsline {subsection}{\numberline {0.4.1} Surface reverberation coefficient }{12}
-\contentsline {subsection}{\numberline {0.4.2} Bottom reverberation coefficient }{12}
-\contentsline {subsection}{\numberline {0.4.3} Volume reverberation coefficient }{13}
-\contentsline {section}{\numberline {0.5} MATLAB code to plot surface reverberation coefficient versus grazing angle }{14}
-\contentsline {subsection}{\numberline {0.5.1} Dependency on frequency }{14}
-\contentsline {subsection}{\numberline {0.5.2} Dependency on wind speed }{14}
-\contentsline {section}{\numberline {0.6} MATLAB code to plot bottom reverberation coefficient versus grazing angle }{16}
-\contentsline {subsection}{\numberline {0.6.1} Dependency on frequency }{16}
-\contentsline {subsection}{\numberline {0.6.2} Dependency on bottom type }{16}
-\contentsline {section}{\numberline {0.7} MATLAB code to plot volume reverberation coefficient versus frequency }{18}
+\contentsline {section}{\numberline {0.1} Dependence of wind speed and frequency on Ambient noise }{6}
+\contentsline {section}{\numberline {0.2} Contribution of different noise sources }{7}
+\contentsline {chapter}{Conclusion}{9}
+\contentsline {chapter}{Appendix}{10}
+\contentsline {section}{\numberline {0.3} MATLAB program to plot ambient noise level versus frequency for various values of wind speeds}{10}
+\contentsline {section}{\numberline {0.4} MATLAB code to plot the contributions of different noise levels }{11}

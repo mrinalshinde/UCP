@@ -2,8 +2,7 @@
 \chapter*{Appendix}
 \addcontentsline{toc}{chapter}{Appendix}
 
-\section{ MATLAB program to compute surface, bottom and volume reverberation coefficients } \label{ MATLAB program to compute surface, bottom and volume reverberation coefficients } 
-\subsection{ Surface reverberation coefficient } \label{ Surface reverberation coefficient } 
+\section{ MATLAB program to plot ambient noise level versus frequency for various values of wind speeds} \label{ MATLAB program to plot ambient noise level versus frequency for various values of wind speeds } 
 \lstset{language=Matlab,%
     %basicstyle=\color{red},
     basicstyle=\tiny,
@@ -21,37 +20,8 @@
     emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
     %emph=[2]{word1,word2}, emphstyle=[2]{style},    
 }
-\lstinputlisting{surfaceBackScattering.m}
+\lstinputlisting{USP4_1.m}
 
-\subsection{ Bottom reverberation coefficient } \label{ Bottom reverberation coefficient } 
-\lstinputlisting{BottomBackScattering.m}
+\section{ MATLAB code to plot the contributions of different noise levels } \label{ MATLAB code to plot the contributions of different noise levels  }
+\lstinputlisting{USP4_2.m}
 
-\subsection{ Volume reverberation coefficient } \label{ Volume reverberation coefficient } 
-\lstinputlisting{volumeBackScattering.m}
-
-\newpage
-
-\section{ MATLAB code to plot surface reverberation coefficient versus grazing angle } \label{ MATLAB code to plot Surface reverberation coefficient versus grazing angle }
-
-\subsection{ Dependency on frequency } \label{ Dependency on frequency } 
-
-\lstinputlisting{USP3_1.m}
-
-\subsection{ Dependency on wind speed } \label{ Dependency on wind speed } 
-\lstinputlisting{USP3_2.m}
-
-\newpage
-
-\section{ MATLAB code to plot bottom reverberation coefficient versus grazing angle } \label{ MATLAB code to plot bottom reverberation coefficient versus grazing angle }
-
-\subsection{ Dependency on frequency } \label{ Dependency on frequency } 
-\lstinputlisting{USP3_3.m}
-
-\subsection{ Dependency on bottom type } \label{ Dependency on bottom type } 
-\lstinputlisting{USP3_4.m}
-
-\newpage
-
-\section{ MATLAB code to plot volume reverberation coefficient versus frequency } \label{ MATLAB code to plot volume reverberation coefficient versus frequency }
-
-\lstinputlisting{USP3_5.m}
