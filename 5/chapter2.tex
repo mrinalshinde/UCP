@@ -14,5 +14,27 @@
 \subsection{ Transmission loss } \label{ Transmission loss }
 \noindent The intensity of an acoustic signal reduces with range. This observed reduction in the acoustic signal with distance from the source is due to the combined effects of spreading and attenuation and is accounted for by the transmission loss term.
 
+\noindent The Transmission loss is given by
+\begin{equation}
+\textit{TL} = \textnormal{spreading loss} + \textnormal{attenuation} 
+\end{equation}
+\noindent where \textit{TL} is defined to be 0 dB on a sphere around the source of radius $\textit{r} = 1m.$
 
+\noindent For a constant sound velocity profile and spherical spreading the transmission loss can be determined by
+\begin{equation}
+\textit{TL(r, z)} = 20 log_{10}{(R)} + \alpha (\textit{R} - 1m)
+\end{equation}
+\noindent with
+\begin{equation}
+\textit{R} = \sqrt{ (\textit{r} - \textit{$r_{0}$})^{2} + (\textit{z} - \textit{$z_{0}$})^{2} }
+\end{equation}
+\noindent where \textit{$r_{0}$}, \textit{$z_{0}$} denote the horizontal and vertical coordinates of the source locations and the receiver position, respectively.
 
+\noindent In case of depth and range dependent cylinder symmetric sound velocity profiles the \textit{TL} can be calculated by
+\begin{equation}
+\textit{TL(r, z)} = 20 log_{10}{(R)} + 10log_{10}{(\textit{F(r, z))}}  + \alpha (\textit{R} - 1m)
+\end{equation}
+\noindent where \textit{F(r, z)} denotes the so called focusing factor given by
+\begin{equation}
+\textit{F(r, z)} = \frac{ \textnormal{ actual spreading at \textit{r, z}}}{ spherical spreading at \textit{r, z}}
+\end{equation}
