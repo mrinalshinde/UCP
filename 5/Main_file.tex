@@ -1,0 +1,65 @@
+\documentclass[12pt]{report}
+\textwidth 6.5 in
+\textheight 8.0 in
+\setlength{\parskip}{5 mm}
+\usepackage{geometry}
+\geometry{verbose,a4paper,tmargin=20mm,bmargin=35mm,lmargin=15mm,rmargin=15mm}
+%\geometry{a4paper}
+\usepackage{setspace}
+\usepackage[table]{xcolor}
+\usepackage{graphics}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{lipsum}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{lastpage}
+\usepackage{graphicx, array}
+\usepackage{fancyhdr}
+\usepackage[toc,page]{appendix}
+\usepackage[justification=centering]{caption}
+\usepackage{subfigure}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\onehalfspacing
+\makeatletter
+\usepackage[utf8]{inputenc}
+\begin{document}
+%-----------------------------------------------
+%-----------------------------------------------
+\bibliographystyle{unsrt}
+\pagenumbering{gobble}
+\input{titlepage}
+\pagebreak
+%---------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------
+\renewcommand{\baselinestretch}{0.5}\normalsize
+\tableofcontents
+\renewcommand{\baselinestretch}{2}\normalsize
+
+
+%-----------------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------------
+
+\pagenumbering{arabic}
+
+%\pagestyle{fancy}%hdr and ftr do not appear on chapter and title page
+\pagestyle{fancyplain}%hdr and ftr appear on chapter and title page
+\lhead{\emph{\leftmark}}
+\chead{}
+\rhead{\resizebox*{2.0in}{0.9in}{\includegraphics{hsb.png}}}
+\lhead{\emph{\footnotesize}}
+\lfoot{\emph{\footnotesize MscEE, Assignment 5}}
+\cfoot{}
+\rfoot{\emph{\thepage}}
+
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+\include{Appendix}
+\end{document}
+

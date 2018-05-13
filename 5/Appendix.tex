@@ -1,0 +1,27 @@
+%DO NOT MESS AROUND WITH THE CODE ON THIS PAGE UNLESS YOU %REALLY KNOW WHAT YOU ARE DOIN
+\chapter*{Appendix}
+\addcontentsline{toc}{chapter}{Appendix}
+
+\section{ MATLAB program to plot ambient noise level versus frequency for various values of wind speeds} \label{ MATLAB program to plot ambient noise level versus frequency for various values of wind speeds } 
+\lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    basicstyle=\tiny,
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+\lstinputlisting{USP4_1.m}
+
+\section{ MATLAB code to plot the contributions of different noise levels } \label{ MATLAB code to plot the contributions of different noise levels  }
+\lstinputlisting{USP4_2.m}
+
