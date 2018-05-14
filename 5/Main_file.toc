@@ -3,10 +3,13 @@
 \contentsline {section}{\numberline {1.1} Sonar performance prediction }{3}
 \contentsline {section}{\numberline {1.2} Sound propagation related parameters }{4}
 \contentsline {subsection}{\numberline {1.2.1} Transmission loss }{4}
-\contentsline {chapter}{Experimental Research}{6}
-\contentsline {section}{\numberline {1.3} Dependence of wind speed and frequency on Ambient noise }{6}
-\contentsline {section}{\numberline {1.4} Contribution of different noise sources }{7}
-\contentsline {chapter}{Conclusion}{9}
-\contentsline {chapter}{Appendix}{10}
-\contentsline {section}{\numberline {1.5} MATLAB program to plot ambient noise level versus frequency for various values of wind speeds}{10}
-\contentsline {section}{\numberline {1.6} MATLAB code to plot the contributions of different noise levels }{11}
+\contentsline {subsection}{\numberline {1.2.2} Isotropic noise level }{5}
+\contentsline {subsection}{\numberline {1.2.3} Bottom reverberation strength }{6}
+\contentsline {subsection}{\numberline {1.2.4} Surface reverberation strength }{6}
+\contentsline {chapter}{Experimental Research}{8}
+\contentsline {section}{\numberline {1.3} Dependence of wind speed and frequency on Ambient noise }{8}
+\contentsline {section}{\numberline {1.4} Contribution of different noise sources }{9}
+\contentsline {chapter}{Conclusion}{11}
+\contentsline {chapter}{Appendix}{12}
+\contentsline {section}{\numberline {1.5} MATLAB program to plot ambient noise level versus frequency for various values of wind speeds}{12}
+\contentsline {section}{\numberline {1.6} MATLAB code to plot the contributions of different noise levels }{13}
