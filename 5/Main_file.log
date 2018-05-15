@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  15 MAY 2018 02:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  15 MAY 2018 07:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -121,14 +121,53 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks19
 \@floatcapt=\box27
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen115
+\captionmargin@=\dimen116
+\captionwidth=\dimen117
+\caption@tempdima=\dimen118
+\caption@indent=\dimen119
+\caption@parindent=\dimen120
+\caption@hangindent=\dimen121
+)
+\c@ContinuedFloat=\count94
+Package caption Info: float package is loaded.
+)
+\c@KVtest=\count95
+\sf@farskip=\skip46
+\sf@captopadj=\dimen122
+\sf@capskip=\skip47
+\sf@nearskip=\skip48
+\c@subfigure=\count96
+\c@subfigure@save=\count97
+\c@lofdepth=\count98
+\c@subtable=\count99
+\c@subtable@save=\count100
+\c@lotdepth=\count101
+\sf@top=\skip49
+\sf@bottom=\skip50
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
 \pgfutil@everybye=\toks20
-\pgfutil@tempdima=\dimen113
-\pgfutil@tempdimb=\dimen114
+\pgfutil@tempdima=\dimen123
+\pgfutil@tempdimb=\dimen124
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
@@ -142,11 +181,6 @@ Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen115
-\Gin@req@width=\dimen116
-)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
@@ -158,20 +192,20 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 ode.tex
 \pgfkeys@tmptoks=\toks23
 ))
-\pgf@x=\dimen117
-\pgf@y=\dimen118
-\pgf@xa=\dimen119
-\pgf@ya=\dimen120
-\pgf@xb=\dimen121
-\pgf@yb=\dimen122
-\pgf@xc=\dimen123
-\pgf@yc=\dimen124
+\pgf@x=\dimen125
+\pgf@y=\dimen126
+\pgf@xa=\dimen127
+\pgf@ya=\dimen128
+\pgf@xb=\dimen129
+\pgf@yb=\dimen130
+\pgf@xc=\dimen131
+\pgf@yc=\dimen132
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count94
-\c@pgf@countb=\count95
-\c@pgf@countc=\count96
-\c@pgf@countd=\count97
+\c@pgf@counta=\count102
+\c@pgf@countb=\count103
+\c@pgf@countc=\count104
+\c@pgf@countd=\count105
 \t@pgf@toka=\toks24
 \t@pgf@tokb=\toks25
 \t@pgf@tokc=\toks26
@@ -192,8 +226,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count98
-\pgfsyssoftpath@bigbuffer@items=\count99
+\pgfsyssoftpath@smallbuffer@items=\count106
+\pgfsyssoftpath@bigbuffer@items=\count107
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -205,8 +239,8 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen125
-\pgfmath@count=\count100
+\pgfmath@dimen=\dimen133
+\pgfmath@count=\count108
 \pgfmath@box=\box29
 \pgfmath@toks=\toks27
 \pgfmath@stack@operand=\toks28
@@ -231,37 +265,37 @@ code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count101
+\c@pgfmathroundto@lastzeros=\count109
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen126
-\pgf@picmaxx=\dimen127
-\pgf@picminy=\dimen128
-\pgf@picmaxy=\dimen129
-\pgf@pathminx=\dimen130
-\pgf@pathmaxx=\dimen131
-\pgf@pathminy=\dimen132
-\pgf@pathmaxy=\dimen133
-\pgf@xx=\dimen134
-\pgf@xy=\dimen135
-\pgf@yx=\dimen136
-\pgf@yy=\dimen137
-\pgf@zx=\dimen138
-\pgf@zy=\dimen139
+\pgf@picminx=\dimen134
+\pgf@picmaxx=\dimen135
+\pgf@picminy=\dimen136
+\pgf@picmaxy=\dimen137
+\pgf@pathminx=\dimen138
+\pgf@pathmaxx=\dimen139
+\pgf@pathminy=\dimen140
+\pgf@pathmaxy=\dimen141
+\pgf@xx=\dimen142
+\pgf@xy=\dimen143
+\pgf@yx=\dimen144
+\pgf@yy=\dimen145
+\pgf@zx=\dimen146
+\pgf@zy=\dimen147
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen140
-\pgf@path@lasty=\dimen141
+\pgf@path@lastx=\dimen148
+\pgf@path@lasty=\dimen149
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen142
-\pgf@shorten@start@additional=\dimen143
+\pgf@shorten@end@additional=\dimen150
+\pgf@shorten@start@additional=\dimen151
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
@@ -269,19 +303,19 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box30
 \pgf@hbox=\box31
 \pgf@layerbox@main=\box32
-\pgf@picture@serial@count=\count102
+\pgf@picture@serial@count=\count110
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen144
+\pgflinewidth=\dimen152
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen145
-\pgf@pt@y=\dimen146
-\pgf@pt@temp=\dimen147
+\pgf@pt@x=\dimen153
+\pgf@pt@y=\dimen154
+\pgf@pt@temp=\dimen155
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -298,13 +332,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen148
+\pgfarrowsep=\dimen156
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen149
-\pgf@sys@shading@range@num=\count103
+\pgf@max=\dimen157
+\pgf@sys@shading@range@num=\count111
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -339,8 +373,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen150
-\pgf@nodesepend=\dimen151
+\pgf@nodesepstart=\dimen158
+\pgf@nodesepend=\dimen159
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -355,8 +389,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen152
-\pgffor@skip=\dimen153
+\pgffor@iter=\dimen160
+\pgffor@skip=\dimen161
 \pgffor@stack=\toks30
 \pgffor@toks=\toks31
 ))
@@ -367,32 +401,32 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count104
-\pgfplotmarksize=\dimen154
+\pgf@plot@mark@count=\count112
+\pgfplotmarksize=\dimen162
 )
-\tikz@lastx=\dimen155
-\tikz@lasty=\dimen156
-\tikz@lastxsaved=\dimen157
-\tikz@lastysaved=\dimen158
-\tikzleveldistance=\dimen159
-\tikzsiblingdistance=\dimen160
+\tikz@lastx=\dimen163
+\tikz@lasty=\dimen164
+\tikz@lastxsaved=\dimen165
+\tikz@lastysaved=\dimen166
+\tikzleveldistance=\dimen167
+\tikzsiblingdistance=\dimen168
 \tikz@figbox=\box35
 \tikz@figbox@bg=\box36
 \tikz@tempbox=\box37
 \tikz@tempbox@bg=\box38
-\tikztreelevel=\count105
-\tikznumberofchildren=\count106
-\tikznumberofcurrentchild=\count107
-\tikz@fig@count=\count108
+\tikztreelevel=\count113
+\tikznumberofchildren=\count114
+\tikznumberofcurrentchild=\count115
+\tikz@fig@count=\count116
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count109
-\pgfmatrixcurrentcolumn=\count110
-\pgf@matrix@numberofcolumns=\count111
+\pgfmatrixcurrentrow=\count117
+\pgfmatrixcurrentcolumn=\count118
+\pgf@matrix@numberofcolumns=\count119
 )
-\tikz@expandcount=\count112
+\tikz@expandcount=\count120
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -400,26 +434,26 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count113
+\c@lips@count=\count121
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count114
+\lst@mode=\count122
 \lst@gtempboxa=\box39
 \lst@token=\toks32
-\lst@length=\count115
-\lst@currlwidth=\dimen161
-\lst@column=\count116
-\lst@pos=\count117
-\lst@lostspace=\dimen162
-\lst@width=\dimen163
-\lst@newlines=\count118
-\lst@lineno=\count119
-\lst@maxwidth=\dimen164
+\lst@length=\count123
+\lst@currlwidth=\dimen169
+\lst@column=\count124
+\lst@pos=\count125
+\lst@lostspace=\dimen170
+\lst@width=\dimen171
+\lst@newlines=\count126
+\lst@lineno=\count127
+\lst@maxwidth=\dimen172
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count120
-\lst@skipnumbers=\count121
+\c@lstnumber=\count128
+\lst@skipnumbers=\count129
 \lst@framebox=\box40
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
@@ -429,7 +463,7 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip46
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -438,49 +472,49 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks33
-\ex@=\dimen165
+\ex@=\dimen173
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen166
+\pmbraise@=\dimen174
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count122
+\inf@bad=\count130
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count123
-\leftroot@=\count124
+\uproot@=\count131
+\leftroot@=\count132
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count125
-\DOTSCASE@=\count126
+\classnum@=\count133
+\DOTSCASE@=\count134
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box41
 \strutbox@=\box42
-\big@size=\dimen167
+\big@size=\dimen175
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count127
-\c@MaxMatrixCols=\count128
+\macc@depth=\count135
+\c@MaxMatrixCols=\count136
 \dotsspace@=\muskip10
-\c@parentequation=\count129
-\dspbrk@lvl=\count130
+\c@parentequation=\count137
+\dspbrk@lvl=\count138
 \tag@help=\toks34
-\row@=\count131
-\column@=\count132
-\maxfields@=\count133
+\row@=\count139
+\column@=\count140
+\maxfields@=\count141
 \andhelp@=\toks35
-\eqnshift@=\dimen168
-\alignsep@=\dimen169
-\tagshift@=\dimen170
-\tagwidth@=\dimen171
-\totwidth@=\dimen172
-\lineht@=\dimen173
+\eqnshift@=\dimen176
+\alignsep@=\dimen177
+\tagshift@=\dimen178
+\tagwidth@=\dimen179
+\totwidth@=\dimen180
+\lineht@=\dimen181
 \@envbody=\toks36
-\multlinegap=\skip47
-\multlinetaggap=\skip48
+\multlinegap=\skip52
+\multlinetaggap=\skip53
 \mathdisplay@stack=\toks37
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
@@ -490,59 +524,21 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip49
-\f@ncyO@elh=\skip50
-\f@ncyO@erh=\skip51
-\f@ncyO@olh=\skip52
-\f@ncyO@orh=\skip53
-\f@ncyO@elf=\skip54
-\f@ncyO@erf=\skip55
-\f@ncyO@olf=\skip56
-\f@ncyO@orf=\skip57
+\fancy@headwidth=\skip54
+\f@ncyO@elh=\skip55
+\f@ncyO@erh=\skip56
+\f@ncyO@olh=\skip57
+\f@ncyO@orh=\skip58
+\f@ncyO@elf=\skip59
+\f@ncyO@erf=\skip60
+\f@ncyO@olf=\skip61
+\f@ncyO@orf=\skip62
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count134
-\c@@ppsavesec=\count135
-\c@@ppsaveapp=\count136
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen174
-\captionmargin@=\dimen175
-\captionwidth=\dimen176
-\caption@tempdima=\dimen177
-\caption@indent=\dimen178
-\caption@parindent=\dimen179
-\caption@hangindent=\dimen180
-)
-\c@ContinuedFloat=\count137
-Package caption Info: float package is loaded.
-Package caption Info: listings package is loaded.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip58
-\subfigcapskip=\skip59
-\subfigcaptopadj=\dimen181
-\subfigbottomskip=\skip60
-\subfigcapmargin=\dimen182
-\subfiglabelskip=\skip61
-\c@subfigure=\count138
-\c@lofdepth=\count139
-\c@subtable=\count140
-\c@lotdepth=\count141
-
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-(/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip62
-\subfig@bottom=\skip63
+\c@@pps=\count142
+\c@@ppsavesec=\count143
+\c@@ppsaveapp=\count144
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
@@ -873,18 +869,18 @@ Now handling font encoding U ...
 (./chapter4.aux) (./Appendix.aux))
 \openout1 = `Main_file.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -926,16 +922,16 @@ Package geometry Warning: The marginal notes overrun the paper.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count142
-\scratchdimen=\dimen183
+\scratchcounter=\count145
+\scratchdimen=\dimen182
 \scratchbox=\box43
-\nofMPsegments=\count143
-\nofMParguments=\count144
+\nofMPsegments=\count146
+\nofMParguments=\count147
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count145
-\MPscratchDim=\dimen184
-\MPnumerator=\count146
-\makeMPintoPDFobject=\count147
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen183
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
 \everyMPtoPDFconversion=\toks41
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
@@ -983,14 +979,16 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count148
+\c@lstlisting=\count151
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 32.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfigure package is loaded.
-Package caption Info: End \AtBeginDocument code.
+(lastpage)             ! on input line 34.
  (./titlepage.tex
 <hsb.png, id=4, 339.76938pt x 157.92334pt>
 File: hsb.png Graphic file (type png)
@@ -1013,7 +1011,7 @@ ng> <./iwss.png>]
 
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 61.
+Package pdftex.def Info: hsb.png used on input line 63.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
 
 
@@ -1030,7 +1028,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  (./chapter1.tex)
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 61.
+Package pdftex.def Info: hsb.png used on input line 63.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [2
 
@@ -1106,61 +1104,114 @@ Package pdftex.def Info: hsb.png used on input line 265.
  [12])
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 62.
+Package pdftex.def Info: hsb.png used on input line 64.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [13]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
-<usp4_1.png, id=68, 2890.8pt x 1704.3675pt>
-File: usp4_1.png Graphic file (type png)
- <use usp4_1.png>
-Package pdftex.def Info: usp4_1.png used on input line 13.
-(pdftex.def)             Requested size: 520.32156pt x 306.7729pt.
-
-Overfull \hbox (8.17194pt too wide) in paragraph at lines 13--14
- [][] 
- []
-
 File: hsb.png Graphic file (type png)
-<use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 16.
+ <use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 43.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
  [14
 
 
 
 ]
+<fig1.png, id=72, 2890.8pt x 1704.3675pt>
+File: fig1.png Graphic file (type png)
+ <use fig1.png>
+Package pdftex.def Info: fig1.png used on input line 51.
+(pdftex.def)             Requested size: 270.30118pt x 159.34195pt.
+
+<fig2.png, id=73, 2890.8pt x 1704.3675pt>
+File: fig2.png Graphic file (type png)
+ <use fig2.png>
+Package pdftex.def Info: fig2.png used on input line 54.
+(pdftex.def)             Requested size: 270.30118pt x 159.34195pt.
+
+<fig3.png, id=74, 2890.8pt x 1704.3675pt>
+File: fig3.png Graphic file (type png)
+ <use fig3.png>
+Package pdftex.def Info: fig3.png used on input line 59.
+(pdftex.def)             Requested size: 270.30118pt x 159.34195pt.
+
+Overfull \hbox (44.11923pt too wide) in paragraph at lines 51--60
+ [][][]  
+ []
+
+<fig4.png, id=75, 2890.8pt x 1704.3675pt>
+File: fig4.png Graphic file (type png)
+ <use fig4.png>
+Package pdftex.def Info: fig4.png used on input line 69.
+(pdftex.def)             Requested size: 270.30118pt x 159.34195pt.
+
+<fig5.png, id=76, 2890.8pt x 1704.3675pt>
+File: fig5.png Graphic file (type png)
+ <use fig5.png>
+Package pdftex.def Info: fig5.png used on input line 72.
+(pdftex.def)             Requested size: 270.30118pt x 159.34195pt.
+
+<fig6.png, id=77, 2890.8pt x 1704.3675pt>
+File: fig6.png Graphic file (type png)
+ <use fig6.png>
+Package pdftex.def Info: fig6.png used on input line 77.
+(pdftex.def)             Requested size: 256.0748pt x 150.96785pt.
+
+Overfull \hbox (44.11923pt too wide) in paragraph at lines 69--78
+ [][][]  
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: hsb.png Graphic file (type png)
+<use hsb.png>
+Package pdftex.def Info: hsb.png used on input line 82.
+(pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
+ [15 <./fig1.png (PNG copy)> <./fig2.png (PNG copy)> <./fig3.png (PNG copy)>]
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 21.
+Package pdftex.def Info: hsb.png used on input line 83.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [15 <./usp4_1.png (PNG copy)>]
-<usp4_2.png, id=75, 2890.8pt x 1704.3675pt>
-File: usp4_2.png Graphic file (type png)
- <use usp4_2.png>
-Package pdftex.def Info: usp4_2.png used on input line 24.
-(pdftex.def)             Requested size: 520.32156pt x 306.7729pt.
+ [16 <./fig4.png (PNG copy)> <./fig5.png (PNG copy)> <./fig6.png (PNG copy)>] <
+fig7.png, id=85, 2890.8pt x 1704.3675pt>
+File: fig7.png Graphic file (type png)
 
-Overfull \hbox (8.17194pt too wide) in paragraph at lines 24--25
- [][] 
+<use fig7.png>
+Package pdftex.def Info: fig7.png used on input line 89.
+(pdftex.def)             Requested size: 270.30118pt x 159.34195pt.
+ <fig8.png, id=86, 2890.8pt x 1704.3675pt>
+File: fig8.png Graphic file (type png)
+ <use fig8.png>
+Package pdftex.def Info: fig8.png used on input line 92.
+(pdftex.def)             Requested size: 270.30118pt x 159.34195pt.
+
+<fig9.png, id=87, 2890.8pt x 1704.3675pt>
+File: fig9.png Graphic file (type png)
+ <use fig9.png>
+Package pdftex.def Info: fig9.png used on input line 97.
+(pdftex.def)             Requested size: 256.0748pt x 150.96785pt.
+
+Overfull \hbox (44.11923pt too wide) in paragraph at lines 89--98
+ [][][]  
  []
 
 )
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 63.
+Package pdftex.def Info: hsb.png used on input line 65.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [16 <./usp4_2.png (PNG copy)>]
+ [17 <./fig7.png (PNG copy)> <./fig8.png (PNG copy)> <./fig9.png (PNG copy)>]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex)
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 64.
+Package pdftex.def Info: hsb.png used on input line 66.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
-
-[17
+ [18
 
 
 
@@ -1176,7 +1227,7 @@ File: hsb.png Graphic file (type png)
  <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 30.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [18
+ [19
 
 
 
@@ -1194,46 +1245,45 @@ File: hsb.png Graphic file (type png)
 <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 11.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [19]))
+ [20]))
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 65.
+Package pdftex.def Info: hsb.png used on input line 67.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [20] 
+ [21] 
 AED: lastpage setting LastPage
 (./Main_file.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
-(./chapter4.aux) (./Appendix.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./chapter4.aux) (./Appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 17064 strings out of 492995
- 310246 string characters out of 6132704
- 597600 words of memory out of 5000000
- 20250 multiletter control sequences out of 15000+600000
+ 17093 strings out of 492995
+ 310828 string characters out of 6132704
+ 599515 words of memory out of 5000000
+ 20274 multiletter control sequences out of 15000+600000
  12594 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,54p,994b,2369s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on Main_file.pdf (21 pages, 1665679 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/eule
+r/eurm10.pfb>
+Output written on Main_file.pdf (22 pages, 2071113 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
