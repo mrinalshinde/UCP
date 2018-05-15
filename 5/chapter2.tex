@@ -1,6 +1,6 @@
 %DO NOT MESS AROUND WITH THE CODE ON THIS PAGE UNLESS YOU %REALLY KNOW WHAT YOU ARE DOING
-\chapter{Theory} \label{Theory}
-
+\chapter*{Theory} 
+\addcontentsline{toc}{chapter}{Theory}
 \section{ Sonar performance prediction } \label{ Sonar performance prediction }
 
 \noindent The basic problem in sonar is to measure some signal (possibly an echo) against a background of noise (or reverberation). So that the signal may be detected above the background, the ratio of the measured signal to the measured background (signal-to-noise ratio) must be at least some minimum value that is determined by the system. The various terms in the sonar equations are called sonar parameters. These parameters may be grouped according to whether they are determined by the equipment, medium, or target. Equipment parameters are source level, detection threshold, directivity index, self-noise level, and array gain (also determined by medium). Medium parameters are transmission loss, ambient noise level, and reverberation level (also determined by equipment). And target parameters are target strength, and target source level. Oceanographic interest in marine acoustics is concentrated mostly in the parameters determined by the medium.
@@ -193,3 +193,92 @@
 \end{center}
 
 \noindent The performance parameters can be determined by
+\begin{equation}
+\begin{split}
+\textit{EL(r,z)} & = 10 log_{10}{(\textit{el(r,z)})} = 10log_{10}{(sl  .  bp_{T,E}  .  bp_{R,E}  .  ts / tl_{E}^{2})} \\
+ & = 10log_{10}{( 10^{0.1 SL} . 10^{0.1 BP_{T,E}} . 10^{0.1 BP_{R,E}} . 10^{-0.2 TL_{E}} . 10^{0.1 TS} )} \\
+ & = SL + BP_{T,E} + BP_{R,E} - 2TL_{E} + TS
+\end{split}
+\end{equation} 
+\begin{equation}
+\begin{split}
+\textit{EE(r,z)} & = 10 log_{10}{(\textit{ee(r,z)})} = 10log_{10}{(el . di / nl_{B} )} \\
+ & = 10log_{10}{( 10^{0.1 EL} . 10^{-0.1 (NL_{B} - DI)}) = EL - ( NL_{B} - DI)} \\
+ & = SL + BP_{T,E} + BP_{R,E} - 2TL_{E} + TS - ( NL_{B} - DI)
+\end{split}
+\end{equation} 
+\begin{equation}
+\begin{split}
+\textit{SN(r,z)} & = 10 log_{10}{(\textit{sn(r,z)})} = 10log_{10}{(el / til )} \\
+ & = 10log_{10}{( 10^{0.1 EL} . 10^{-0.1 TIL})} = EL - TIL \\
+ & = SL + BP_{T,E} + BP_{R,E} - 2TL_{E} + TS - TIL
+\end{split}
+\end{equation} 
+\noindent and
+\begin{equation}
+\begin{split}
+\textit{SE(r,z)} & = 10 log_{10}{(\textit{se(r,z)})} = 10log_{10}{(sn / dt)} \\
+ & = 10log_{10}{( 10^{0.1 SN} . 10^{-0.1 DT})} = SN - DT \\
+ & = SL + BP_{T,E} + BP_{R,E} - 2TL_{E} + TS - TIL - DT
+\end{split}
+\end{equation} 
+\noindent where \textit{DT} denotes the detection threshold, \textit{TIL} the total inference level
+\begin{equation}
+\begin{split}
+\textit{TIL(r,z)} & = 10 log_{10}{(\textit{til(r,z)})} = 10log_{10}{( nl_{B} / dt + rl_{B} + rl_{S} + rl_{V} )} \\
+ & = 10log_{10}{( 10^{0.1 (NL_{B} - DI)} + 10^{0.1 RL_{B}} + 10^{0.1 RL_{S}} + 10^{0.1 RL_{V}})} 
+\end{split}
+\end{equation} 
+\noindent and \textit{$RL_{B}$}, \textit{$RL_{S}$}, and \textit{$RL_{V}$} the reverberation level of the bottom, surface and volume, respectively, i.e.
+\begin{equation}
+\begin{gathered} 
+RL_{B}  = SL + BP_{T,B} + BP_{R,B} - 2TL_{B} + RS_{B} \\
+RL_{S}  = SL + BP_{T,S} + BP_{R,S} - 2TL_{S} + RS_{S} \\
+RL_{V}  = SL + \overline{BP_{T,V} + BP_{R,V} - 2TL_{V}} + RS_{V}
+\end{gathered} 
+\end{equation}
+\noindent For $ \textit{c} = const.,$ we can write
+\begin{equation}
+TL_{E}  =  TL_{B} = TL_{S} = TL_{V}  
+\end{equation}
+\noindent Furthermore, the following abbreviations have been used.
+\[ 
+\begin{tabular}{lll}
+ $BP_{T,E}$ & : & Transmitter \\
+ $BP_{R,E}$ & : & Receiver \\
+\end{tabular}
+\Bigg\} \textnormal{Beampattern value for the ray directed toward the target position}
+\]
+\[ 
+\begin{tabular}{lll}
+ $BP_{T,B}$ & : & Transmitter \\
+ $BP_{R,B}$ & : & Receiver \\
+\end{tabular}
+\Bigg\} \textnormal{Beampattern value for the ray directed toward the insonified bottom area}
+\]
+\[ 
+\begin{tabular}{lll}
+ $BP_{T,S}$ & : & Transmitter \\
+ $BP_{R,S}$ & : & Receiver \\
+\end{tabular}
+\Bigg\} \textnormal{Beampattern value for the ray directed toward the insonified surface area}
+\]
+\makeatletter
+\newcommand\makebig[2]{%
+  \@xp\newcommand\@xp*\csname#1\endcsname{\bBigg@{#2}}%
+  \@xp\newcommand\@xp*\csname#1l\endcsname{\@xp\mathopen\csname#1\endcsname}%
+  \@xp\newcommand\@xp*\csname#1r\endcsname{\@xp\mathclose\csname#1\endcsname}%
+}
+\makeatother
+\makebig{Bigggg}{6.5}
+\[ 
+\begin{tabular}{l}
+   $TL_{E}$ \\
+   $TL_{B}$ \\
+   $TL_{S}$ \\
+   $TL_{V}$ \\
+\end{tabular}
+\Bigggg\} \textnormal{ Tranmission loss for the echo, bottom, surface and volume reverberation, respectively }
+\]
+
+
