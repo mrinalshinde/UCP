@@ -2,7 +2,9 @@
 \chapter*{Appendix}
 \addcontentsline{toc}{chapter}{Appendix}
 
-\section{ MATLAB program to plot ambient noise level versus frequency for various values of wind speeds} \label{ MATLAB program to plot ambient noise level versus frequency for various values of wind speeds } 
+\section{ MATLAB functions required to plot dependence of bottom type and wind speed on signal to noise ratio } \label{ MATLAB functions required to plot dependence of bottom type and wind speed on signal to noise ratio }
+
+\subsection{ MATLAB function to compute Transmission Loss} \label{ MATLAB program to compute transmission loss } 
 \lstset{language=Matlab,%
     %basicstyle=\color{red},
     basicstyle=\tiny,
@@ -20,8 +22,22 @@
     emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
     %emph=[2]{word1,word2}, emphstyle=[2]{style},    
 }
-\lstinputlisting{USP4_1.m}
+\lstinputlisting{Atten_Schulkin_Marsh.m}
 
-\section{ MATLAB code to plot the contributions of different noise levels } \label{ MATLAB code to plot the contributions of different noise levels  }
-\lstinputlisting{USP4_2.m}
+\subsection{ MATLAB function to compute the noise level} \label{ MATLAB function to compute the noise level} 
+\lstinputlisting{Noise_Level.m}
+
+\subsection{ MATLAB function to compute the bottom reverberation} \label{ MATLAB function to compute the bottom reverberation} 
+\lstinputlisting{Bottom_Reverberation.m}
+
+\subsection{ MATLAB function to compute the surface reverberation} \label{ MATLAB function to compute the surface reverberation} 
+\lstinputlisting{Surface_Reverberation.m}
+
+\subsection{ MATLAB function to compute the volume reverberation} \label{ MATLAB function to compute the volume reverberation}
+\lstinputlisting{Volume_Reverberation.m}
+
+\section{ MATLAB program to plot dependence of bottom type and wind speed on signal to noise ratio } \label{ MATLAB program to plot dependence of bottom type and wind speed on signal to noise ratio }
+\lstinputlisting{USP5.m}
+
+
 
