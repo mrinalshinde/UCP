@@ -1,0 +1,14 @@
+\contentsline {chapter}{Introduction}{2}
+\contentsline {chapter}{Theory}{3}
+\contentsline {section}{\numberline {0.1} Image Source Approach }{3}
+\contentsline {chapter}{Experimental Research}{5}
+\contentsline {section}{\numberline {0.2} Signal to Noise Ratio }{5}
+\contentsline {chapter}{Conclusion}{9}
+\contentsline {chapter}{Appendix}{10}
+\contentsline {section}{\numberline {0.3} MATLAB functions required to plot dependence of bottom type and wind speed on signal to noise ratio }{10}
+\contentsline {subsection}{\numberline {0.3.1} MATLAB function to compute Transmission Loss}{10}
+\contentsline {subsection}{\numberline {0.3.2} MATLAB function to compute the noise level}{10}
+\contentsline {subsection}{\numberline {0.3.3} MATLAB function to compute the bottom reverberation}{11}
+\contentsline {subsection}{\numberline {0.3.4} MATLAB function to compute the surface reverberation}{11}
+\contentsline {subsection}{\numberline {0.3.5} MATLAB function to compute the volume reverberation}{11}
+\contentsline {section}{\numberline {0.4} MATLAB program to plot dependence of bottom type and wind speed on signal to noise ratio }{12}
