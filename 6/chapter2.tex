@@ -11,7 +11,7 @@
 \end{figure}
 \noindent  As a first approximation, the sound pressure in the waveguide can be determined by superimposing the four contributions indicated in the Figure 1, i.e.
 \begin{equation}
-\textit{$P(r_R, z_R,\omega)$} = A(\omega)( \frac{e^{-jkL_{01}}}{L_{01}} + R_{1}(\theta_{02},\omega) \frac{e^{-jkL_{02}}}{L_{02}} +  R_{3}(\theta_{03},\omega) \frac{e^{-jkL_{03}}}{L_{03}} +  R_{4}(\theta_{04},\omega) \frac{e^{-jkL_{04}}}{L_{04}} )
+\textit{$P(r_R, z_R,\omega)$} = A(\omega) \Bigg( \frac{e^{-jkL_{01}}}{L_{01}} + R_{1}(\theta_{02},\omega) \frac{e^{-jkL_{02}}}{L_{02}} +  R_{3}(\theta_{03},\omega) \frac{e^{-jkL_{03}}}{L_{03}} +  R_{4}(\theta_{04},\omega) \frac{e^{-jkL_{04}}}{L_{04}}  \Bigg)
 \end{equation}
 \noindent with
 \begin{equation}
@@ -38,9 +38,29 @@ L_{04}  = \sqrt{r_{R}^{2} + (2D + z_{S} - z_{R})^{2}}
  +  R_{1}^{m+1}(\theta_{m4},\omega)  R_{2}^{m+1}(\theta_{m4},\omega)  \frac{e^{-jkL_{m4}}}{L_{m4}} \Bigg)
 \end{gathered}
 \end{equation}
-
-
-
-
-
-
+\noindent with
+\begin{equation}
+\begin{gathered} 
+L_{m1}  = \sqrt{r_{R}^{2} + (2Dm - z_{S} + z_{R})^{2}} \\
+L_{m2}  = \sqrt{r_{R}^{2} + (2Dm + z_{S} + z_{R})^{2}} \\
+L_{m3}  = \sqrt{r_{R}^{2} + (2D(m+1) - z_{S} + z_{R})^{2}} \\
+L_{m4}  = \sqrt{r_{R}^{2} + (2D(m+1) + z_{S} + z_{R})^{2}}
+\end{gathered} 
+\end{equation}
+\noindent and
+\begin{equation}
+\begin{gathered} 
+\theta_{m1}  = arctan \Big((2Dm - z_{S} + z_{R}) / r_{R} \Big) \\
+\theta_{m2}  = arctan \Big((2Dm + z_{S} + z_{R}) / r_{R} \Big) \\
+\theta_{m3}  = arctan \Big((2D(m+1 ) - z_{S} - z_{R}) / r_{R} \Big) \\
+\theta_{m4}  = arctan \Big((2D(m+1 ) +  z_{S} - z_{R}) / r_{R} \Big)
+\end{gathered} 
+\end{equation}
+\noindent Taking into account that the reflection coefficients at the ocean surface and bottom can be approximated by \\
+\makebox[\textwidth]{ $\textit{R} \approx -1, water-air-interface $}
+\makebox[\textwidth]{ $\textit{R} \approx 1, water-hard bottom-interface $}
+\noindent the calculation of the sound pressure simplifies to
+\begin{equation}
+\textit{$P(r_R, z_R,\omega)$} = A(\omega)\sum_{m=0}^{\infty} \Bigg(  \frac{e^{-jkL_{m1}}}{L_{m1}} -
+\frac{e^{-jkL_{m2}}}{L_{m2}} +  \frac{e^{-jkL_{m3}}}{L_{m3}} - \frac{e^{-jkL_{m4}}}{L_{m4}} \Bigg)
+\end{equation}
