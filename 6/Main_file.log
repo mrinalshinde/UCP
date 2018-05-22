@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  22 MAY 2018 04:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.25)  22 MAY 2018 06:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1037,26 +1037,26 @@ Package pdftex.def Info: hsb.png used on input line 62.
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
-<usp1.jpg, id=27, 1084.05pt x 683.55376pt>
+<usp1.jpg, id=25, 1084.05pt x 683.55376pt>
 File: usp1.jpg Graphic file (type jpg)
  <use usp1.jpg>
-Package pdftex.def Info: usp1.jpg used on input line 9.
+Package pdftex.def Info: usp1.jpg used on input line 11.
 (pdftex.def)             Requested size: 379.42319pt x 239.24739pt.
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 15.
+Package pdftex.def Info: hsb.png used on input line 14.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
 
 [3
 
 
 
- <./usp1.jpg>]
+]
 File: hsb.png Graphic file (type png)
  <use hsb.png>
-Package pdftex.def Info: hsb.png used on input line 58.
+Package pdftex.def Info: hsb.png used on input line 36.
 (pdftex.def)             Requested size: 339.76854pt x 157.92294pt.
- [4])
+ [4 <./usp1.jpg>])
 File: hsb.png Graphic file (type png)
  <use hsb.png>
 Package pdftex.def Info: hsb.png used on input line 63.
@@ -1074,31 +1074,31 @@ Package pdftex.def Info: hsb.png used on input line 34.
 
 
 
-] <usp6_1.png, id=48, 2890.8pt x 1704.3675pt>
+] <usp6_1.png, id=47, 2890.8pt x 1704.3675pt>
 File: usp6_1.png Graphic file (type png)
  <use usp6_1.png>
 Package pdftex.def Info: usp6_1.png used on input line 48.
 (pdftex.def)             Requested size: 270.30118pt x 159.34195pt.
 
-<usp6_2.png, id=49, 2890.8pt x 1704.3675pt>
+<usp6_2.png, id=48, 2890.8pt x 1704.3675pt>
 File: usp6_2.png Graphic file (type png)
  <use usp6_2.png>
 Package pdftex.def Info: usp6_2.png used on input line 51.
 (pdftex.def)             Requested size: 270.30118pt x 159.34195pt.
 
-<usp6_3.png, id=50, 2890.8pt x 1704.3675pt>
+<usp6_3.png, id=49, 2890.8pt x 1704.3675pt>
 File: usp6_3.png Graphic file (type png)
  <use usp6_3.png>
 Package pdftex.def Info: usp6_3.png used on input line 55.
 (pdftex.def)             Requested size: 270.30118pt x 159.34195pt.
 
-<usp6_4.png, id=51, 2890.8pt x 1704.3675pt>
+<usp6_4.png, id=50, 2890.8pt x 1704.3675pt>
 File: usp6_4.png Graphic file (type png)
  <use usp6_4.png>
 Package pdftex.def Info: usp6_4.png used on input line 58.
 (pdftex.def)             Requested size: 270.30118pt x 159.34195pt.
 
-<usp6_5.png, id=52, 2890.8pt x 1704.3675pt>
+<usp6_5.png, id=51, 2890.8pt x 1704.3675pt>
 File: usp6_5.png Graphic file (type png)
  <use usp6_5.png>
 Package pdftex.def Info: usp6_5.png used on input line 63.
@@ -1180,34 +1180,33 @@ AED: lastpage setting LastPage
 (./Main_file.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
 (./chapter4.aux) (./Appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 17062 strings out of 492995
- 310369 string characters out of 6132704
- 544718 words of memory out of 5000000
+ 17061 strings out of 492995
+ 310380 string characters out of 6132704
+ 543728 words of memory out of 5000000
  20244 multiletter control sequences out of 15000+600000
- 14096 words of font info for 49 fonts, out of 8000000 for 9000
+ 13787 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,54p,716b,2369s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti12.pfb>
-Output written on Main_file.pdf (12 pages, 2611975 bytes).
+pe1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti12.pfb>
+Output written on Main_file.pdf (12 pages, 2599518 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

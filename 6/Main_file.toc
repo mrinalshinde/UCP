@@ -1,8 +1,9 @@
 \contentsline {chapter}{Introduction}{2}
 \contentsline {chapter}{Theory}{3}
-\contentsline {section}{\numberline {0.1} Image Source Approach }{3}
+\contentsline {section}{\numberline {0.1} Sound Propagation Modeling }{3}
+\contentsline {section}{\numberline {0.2} Image Source Approach }{3}
 \contentsline {chapter}{Experimental Research}{6}
-\contentsline {section}{\numberline {0.2} Pressure distribution }{6}
+\contentsline {section}{\numberline {0.3} Pressure distribution }{6}
 \contentsline {chapter}{Conclusion}{9}
 \contentsline {chapter}{Appendix}{10}
-\contentsline {section}{\numberline {0.3} MATLAB code to depict the pressure distribution }{10}
+\contentsline {section}{\numberline {0.4} MATLAB code to depict the pressure distribution }{10}
