@@ -3,72 +3,65 @@
 \addcontentsline{toc}{chapter}{Experimental Research}
 
 
-\section{ Signal to Noise Ratio } \label{ Signal to Noise Ratio } 
-\noindent  The MATLAB program for determining the signal to noise ratio was developed. The following parameter values were considered.
-
-\begin{minipage}[b]{.40\textwidth}
-   \centering
-   \begin{tabular}{ | l | l |}
-     \hline
-     \textit{z / r} & uptp 50 m / 600 m \\ \hline
-     \textit{bt} & mud, sand and gravel \\ \hline
-     \textit{$v_{W}$} & 5, 15 and 25 knots \\ \hline
-     \textit{S} & 33 ppt \\ \hline
-     \textit{T} & $15^{\circ}$ \\ \hline
-     \textit{c} & 1480 m/s \\ \hline
-     \textit{SL} & 220 dB \\ \hline
-     \textit{f} & 100 kHz \\ \hline
-      $ \uptau $& $100 \mu s $\\ \hline
-      \textit{DI} & 30 dB \\
-     \hline
-   \end{tabular}
-  \end{minipage}\qquad
-\begin{minipage}[b]{.40\textwidth}
-   \centering
-   \begin{tabular}{ | l | l |}
-     \hline
-      \textit{B} & 10 kHz \\ \hline
-     \textit{$BP_{T}$} & 0 dB $(\pm 90^{\circ})$ \\ \hline
-     \textit{$BP_{R}$} & 0 dB $(\pm 90^{\circ})$\\ \hline
-     $2\theta_{\textit{h,R}} $ & $0.5^{\circ}$\\ \hline
-     $2\theta_{\textit{h,T}} $ & $90^{\circ}$ \\ \hline
-     $2\theta_{\textit{v,R}} $ & $180^{\circ}$ \\ \hline
-     $2\theta_{\textit{v,T}} $ & $180^{\circ}$ \\ \hline
-     \textit{$r_{S}$} & 0 m \\ \hline
-      \textit{$z_{S}$} & 5 m \\ \hline
-       \textit{TS} & $ -15 dB$ \\
+\section{ Pressure distribution } \label{ Pressure distribution } 
+\noindent The MATLAB program for determining the pressure distribution was developed. The following parameter values were considered.
+\begin{center}
+\begin{tabular}{ |c|c| } 
+ \hline
+ \multicolumn{2}{|c|}{Signal Parameters} \\
+ \hline
+  Waveform type & Sinusoidal \\
+  Amplitude, \textit{A} & 1\\ 
+  Frequency, \textit{f} & 10 Hz, 100 Hz, 1 kHz, 10 kHz and 100 kHz  \\ 
    \hline
-   \end{tabular}
-   \end{minipage}
-   \newpage
-   
-\noindent Signal to noise ratio (SNR) is a measure of how strong the signal of interest is with respect to the noise environment. The higher the SNR, the better the detection. The Figure 1, Figure 2 and Figure 3 show SNR as a function of depth and range for this particular sonar/environment scenario. In the images, colour is mapped to SNR where red is high and blue is low.
+\end{tabular}
+\end{center}
 
+\begin{center}
+\begin{tabular}{ |c|c| } 
+ \hline
+ \multicolumn{2}{|c|}{Waveguide Parameters} \\
+ \hline
+  Water depth, \textit{D} & 20 m \\
+  Source location & \textit{$r_{S}$} = 0 m and \textit{$z_{S}$} = 5 m \\ 
+  Receiver location & $(r_{R},z_{R})^{T} \in [0, 500] \times [0, \textit{D}] $\\ 
+  Bottom type & Hard, i.e. $ \textit{$R_{2}$} = 1$ \\
+  Sound speed, \textit{c} & 1480 m/s \\
+   \hline
+\end{tabular}
+\end{center}
 
+\newpage
 
-\noindent The Figure 1 shows the impact of wind speed on signal to noise ratio in the range of $\textit{r} (50, 600).$ The figure has been plotted for fixed value of wind speeds (5 kn, 15 kn and 25 kn) and the bottom type is considered to be mud. We can see from the Figure 1 that as the wind speed is increased from 5 kn to 25 kn, the signal to noise ratio decreases.
+\noindent The pressure distribution is a function of source location, receiver location and angular frequency. For the given point source coordinates $(0, z_{S})$ the pressure shall be determined at an arbitrary receiver location $(r_{R}, z_{R}).$ More the pressure value, better is the prorogation of sound as hydrophones work on the phenomenon of pressure variation. 
+
+\noindent At low frequencies, when the transmission is close to the horizontal,  sound wave reflection yields an interesting effect because the reflected signal interferes with the direct path signal. The coherent summation of two signals produces the spatial interference fringes. When the frequency is 10 Hz, the wave length will be very large compared to the wavelength at 1 kHz. Thus if the wavelength is more the graph for pressure variation will be smoother since the probability variation of maxima (constructive interference) or minima (destructive interference) will be less. Hence in Figure 2(a), there is a smooth drop in pressure as we go further away from the source. 
+
+\noindent Figure 2(b) and Figure 2(c) shows that the pressure distributions along range, \textit{r} and depth, \textit{z}, at frequency 100 Hz and 1 kHz. Here we can observe that at 100 Hz, pressure distribution is not smoother as in the case of 10 Hz. Both in Figure 2(b) and Figure 2(c) we can see that there are certain pockets formed in the far field where there is a sudden decrease in pressure. As the frequency increases, the size of these pressure pockets decreases.
+
+\noindent As we move far from the source, the pressure value decreases. By increasing the frequency from 1 kHz to 100 kHz, the distribution of pressure gradually becomes more intense and also more sensitive to the point of observation. A small movement in the horizontal range can lead to a sudden variation in pressure. This can be observed in Figure 2(d) and Figure 2(e), there is a minute blue/teal drop in pressure in between the yellow/green.
 
 \begin{figure}[h]
 \centering
-\subfloat[first]{
+\subfloat[Frequency, $\textit{f} = 10 Hz$]{
   \includegraphics[width=95mm]{usp6_1.png}
 }
-\subfloat[second]{
+\subfloat[Frequency, $\textit{f} = 100 Hz$]{
   \includegraphics[width=95mm]{usp6_2.png}
 }
 \newline
-\subfloat[third]{
+\subfloat[Frequency, $\textit{f} = 1 kHz$]{
   \includegraphics[width=95mm]{usp6_3.png}
 }
-\subfloat[forth]{
+\subfloat[Frequency, $\textit{f} = 10 kHz$]{
   \includegraphics[width=95mm]{usp6_4.png}
 }
 \newline
 \hbox to 18.5mm{}% !!
-\subfloat[fifth]{
+\subfloat[Frequency, $\textit{f} = 100 kHz$]{
   \includegraphics[width=90mm]{usp6_5.png}
 }
-\caption{Impact of sand as the bottom type and wind speed of 5, 15 and 25 knots on the signal to noise ratio}
+\caption{ Pressure distribution observed at various frequencies }
 \end{figure}
 
 
