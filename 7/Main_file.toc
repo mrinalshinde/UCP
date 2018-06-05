@@ -6,11 +6,13 @@
 \contentsline {subsection}{\numberline {0.1.3} Parabolic Phase Shading (Beam Shaping) }{4}
 \contentsline {subsection}{\numberline {0.1.4} Linear Phase Shading (Electronic Steering) }{4}
 \contentsline {chapter}{Experimental Research}{5}
-\contentsline {section}{\numberline {0.2} Dependence of wind speed and frequency on Ambient noise }{5}
-\contentsline {section}{\numberline {0.3} Contribution of different noise sources }{6}
-\contentsline {chapter}{Conclusion}{8}
-\contentsline {chapter}{Appendix}{9}
-\contentsline {section}{\numberline {0.4} MATLAB code to determine beam pattern for different element spacing }{9}
-\contentsline {section}{\numberline {0.5} MATLAB code to determine beam pattern with amplitude shading }{10}
-\contentsline {section}{\numberline {0.6} MATLAB code to determine parabolic phase shaping }{11}
-\contentsline {section}{\numberline {0.7} MATLAB code to determine linear phase shading }{13}
+\contentsline {section}{\numberline {0.2} Beam Forming }{5}
+\contentsline {section}{\numberline {0.3} Amplitude Shading }{7}
+\contentsline {section}{\numberline {0.4} Parabolic Phase Shading (Beam Shaping) }{8}
+\contentsline {section}{\numberline {0.5} Linear Phase Shading (Electronic Steering) }{9}
+\contentsline {chapter}{Conclusion}{10}
+\contentsline {chapter}{Appendix}{11}
+\contentsline {section}{\numberline {0.6} MATLAB code to determine beam pattern for different element spacing }{11}
+\contentsline {section}{\numberline {0.7} MATLAB code to determine beam pattern with amplitude shading }{12}
+\contentsline {section}{\numberline {0.8} MATLAB code to determine parabolic phase shaping }{13}
+\contentsline {section}{\numberline {0.9} MATLAB code to determine linear phase shading }{15}
