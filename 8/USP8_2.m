@@ -13,7 +13,7 @@ figure,contour(tau/5,mu,20*log10(amb_sig/max(max(amb_sig)))',-(0:5:25), ...
 colorbar
 grid on
 xlabel('Normalized time delay (\tau/\it T)','Interpreter','tex')
-ylabel('Normalized Doppler frequency shift (\mu/\it B)','Interpreter','tex')
+ylabel('Normalized Doppler frequency shift (\it v/\it B)','Interpreter','tex')
 ax = gca; % current axes
 ax.FontSize = 15;
 title('\fontsize{25}Ambiguity Function of a Rectangular Pulse')
@@ -30,7 +30,7 @@ figure,contour(tau/5,mu/2,20*log10(amb_sig/max(max(amb_sig)))',-(0:5:25), ...
 colorbar
 grid on
 xlabel('Normalized time delay (\tau/\it T)','Interpreter','tex')
-ylabel('Normalized Doppler frequency shift (\mu/\it B)','Interpreter','tex')
+ylabel('Normalized Doppler frequency shift (\it v/\it B)','Interpreter','tex')
 ax = gca; % current axes
 ax.FontSize = 15;
 title('\fontsize{25}Ambiguity Function of a LFM with rectangular Envelope')
@@ -45,7 +45,7 @@ figure,contour(tau/5,mu/2,20*log10(amb_sig/max(max(amb_sig)))' ...
 colorbar
 grid on
 xlabel('Normalized time delay (\tau/\it T)','Interpreter','tex')
-ylabel('Normalized Doppler frequency shift (\mu/\it B)','Interpreter','tex')
+ylabel('Normalized Doppler frequency shift (\it v/\it B)','Interpreter','tex')
 ax = gca; % current axes
 ax.FontSize = 15;
 title('\fontsize{25}Ambiguity Function of a LFM with Gaussian Envelope')

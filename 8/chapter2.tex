@@ -2,55 +2,119 @@
 \chapter*{Theory}
 \addcontentsline{toc}{chapter}{Theory}
 
-\section{ Antenna Beam Pattern } \label{ Antenna Beam Pattern }
-\noindent A radiation pattern or the antenna beam pattern defines the variation of the power radiated by an antenna as a function of the direction away from the antenna. Very often, only the relative amplitude is plotted, normalized either to the amplitude on the antenna boresight. As a consequence of the reciprocity theorem, the receiving pattern (sensitivity as a function of direction) is identical to the relative power density of the wave transmitted by the same antenna (power density as a function of direction). The pattern of an antenna may be determined experimentally at an antenna range, or alternatively, deduced by computation. The plots of antenna pattern can be used to benchmark a given radar antenna. They also tell you how much degradation you can expect if the antenna is not aimed properly.
+\section*{ Ambiguity Function } 
+\addcontentsline{toc}{section}{Ambiguity Function}
 
-\noindent The complex beam pattern for a line array is considered in this assignment. It is defined by
-\begin{equation*}
- \tilde{b}(\beta) = \frac{1}{\hat{Q}} \sum_{n=0}^{N-1}Q_{n} e^{j{y_{n}^{'}} sin\beta}
- \end{equation*}
- \noindent with
-  \begin{equation*}
- Q_{n} = \hat{Q_{n}} e^{j \alpha_{n}}
- \end{equation*}
- \noindent and
-  \begin{equation*}
- \hat{Q} = \sum_{n=0}^{N-1}\hat{Q_{n}}
- \end{equation*}
-\noindent For $Q_{0} = Q_{1} = ... = Q_{N-1}$, i.e., $\hat{Q_n} = 1$, $\alpha_n = 0$ and ${y_n}^{'} = -nd$, the complex beam pattern simplifies to
- \begin{equation*}
- \tilde{b}(\beta) = \frac{1}{N} \sum_{n=0}^{N-1} e^{jknd sin\beta}
- \end{equation*}
- \noindent where $k = 2\pi/\lambda$, d is the element spacing, n is the number of point sources and $\beta$ is the angle between vector r and axis x.
+\noindent The ambiguity is a two-dimensional function of delay and Doppler frequency showing the distortion of an uncompensated match filter due to the Doppler shift of the return from a moving target. It is useful for describing the behaviour of a radar or a sonar signal. This function appears to be a good tool to select good signals for the Range and Doppler estimation. It gives an idea of the amount of distortion present in the received signal. It is defined as the time response of a filter matched to a given finite energy signal when the signal is received with a delay $(\tau)$ and a doppler shift $(v)$ relative to the nominal values expected by the filter. The ambiguity function is defined by $-$
+\begin{equation}
+ \chi(\tau,v) = \int_{-\infty}^{\infty} s(t) s^{*}(t-\tau) e^{j2\pi vt}dt
+ \end{equation}
  
- \noindent The squared magnitude of complex beam pattern in dB is called beam pattern and it is expressed as
- \begin{equation*}
- \tilde{B}(\varphi,\theta) = 10\log_{10}{{|\tilde{b}(\varphi,\theta)|^{2}}} = 20\log_{10}{|\tilde{b}(\varphi,\theta)|}
-  \end{equation*}
+ \noindent It can be interpreted as the output of a matched filter designed for a Doppler frequency shift $f$ if a signal with Doppler frequency shift $f_{0} +v$ is received. Thus $\chi(\tau,v)$ can be understood as the point target response in Range/Doppler domain.
+\begin{equation} \label{eq2}
+\begin{split}
+\chi(\tau,v) & = \int_{-\infty}^{\infty} s(t) s^{*}(t-\tau) e^{j2\pi vt}dt \\
+ & = \int_{-\infty}^{\infty} \Bigg( \int_{-\infty}^{\infty} S(\omega)e^{j\omega t}\frac{d\omega}{2\pi}\Bigg) \Bigg( \int_{-\infty}^{\infty} S^{*}(\omega^{'})e^{-j\omega^{'}(t-\tau)}\frac{d\omega^{'}}{2\pi}\Bigg) e^{j2\pi vt}dt \\
+ & = \frac{1}{4\pi}\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} S(\omega)S^{*}(\omega{'})e^{j\omega^{'}\tau}e^{j(\omega - \omega^{'} + 2\pi v)t} d\omega d\omega{'} dt \\
+ & = \frac{1}{4\pi}\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}S(\omega)S^{*}(\omega{'})e^{j\omega^{'}\tau} \delta(\omega - \omega^{'} + 2\pi v) d\omega  d\omega{'} \\
+ & = \frac{1}{4\pi}\int_{-\infty}^{\infty}S(\omega{'} - 2\pi v) S^{*}(\omega^{'})e^{j\omega^{'}\tau} d\omega^{'} \\
+\end{split}
+\end{equation}
 
-\noindent In the following sections, we will discuss in brief the parameters that alter the antenna beam pattern. The parameters discussed in the assignment are beam forming, amplitude shading, parabolic phase shading and linear phase shading.
+\noindent The ambiguity function depends on the transmitted signal and one of the transmitted signals used here is a Linear Frequency Modulated pulse (LFM). In such a signal, the frequency is increased linearly resulting in a particular ambiguity function which is discussed in detail in the following sections.
 
-\subsection{ Beam Forming } \label{ Beam Forming} 
-\noindent Beam forming or spatial filtering is the process by which an array of large number of spatially separated sensors discriminate the signal arriving from a specified direction from a combination of isotropic random noise called ambient noise and other directional signals.
+\noindent Fast Fourier Transform (FFT) is an algorithm which is used to find the spectrum of any signal. FFT is a much faster algorithm as it reduces the number of computations involved in the fourier transform of the signal
+\newpage
+\section*{ Ambiguity Function of particular waveforms } 
+\addcontentsline{toc}{section}{Ambiguity Function of particular waveforms}
+\noindent The spectra of three waveforms are obtained using the FFT algorithm and they are studied. The three waveforms used are:
+\begin{enumerate}
+  \item A rectangular Pulse
+  \item A Linear Frequency Modulated Pulse (LFM) with a rectangular envelope
+  \item A Linear Frequency Modulated Pulse(LFM) with a Gaussian envelope
+\end{enumerate}
 
-\subsection{ Amplitude Shading } \label{ Amplitude Shading } 
-\noindent Shading is most commonly used to suppress side lobes (responses away from the main response lobe) or to suppress responses in noisy direction (known as Adaptive Beam forming). Having all coefficients equal, offers the maximum array gain in an isotropic noise field. Shading increases the width of the main lobe, decreases side lobes and reduces array gain. With shading, we are trading off the main lobe width and side lobe level.
+\subsection*{ Rectangular Pulse } 
+\addcontentsline{toc}{subsection}{Rectangular Pulse}
+\noindent The simplest waveform for a radar system is probably a rectangular waveform, sometimes also referred to as single frequency waveform. For the rectangular waveform, the pulse width is the reciprocal of the bandwidth. The equation for the waveform is given by $-$
+\begin{equation}
+ s(t) = \frac{1}{\sqrt{T}}1_{(-T/2,T/2)}(t)
+ \end{equation}
+ \noindent with $||S||^{2} = 1$. Hence, the ambiguity function is given by
+ \begin{equation} \label{eq4}
+\begin{split}
+\chi(\tau,v) & = \int_{-\infty}^{\infty} s(t) s^{*}(t-\tau) e^{j2\pi vt}dt \\
+& =  \begin{cases} e^{j\pi v \tau} \Big( 1 - \frac{|\tau|}{T} \Big) \frac{sin(\pi v(T - |\tau|))}{\pi v(T - |\tau|)}, & \mbox{for $|\tau| \leq T$} \\ 0, & \mbox{elsewhere} \end{cases} \\
+\end{split}
+\end{equation}
 
-\subsection{ Parabolic Phase Shading (Beam Shaping) } \label{ Parabolic Phase Shading (Beam Shaping) } 
-\noindent According to our requirements, the beam pattern and main lobe can be designed this is known as beam shaping. Time delaying a signal is the time-domain analog to phase shading of the signal in frequency domain. The phase shading provides broadening of the main lobe.
-
-\subsection{ Linear Phase Shading (Electronic Steering) } \label{ Linear Phase Shading (Electronic Steering) } 
-\noindent Electronic steering is about changing the direction of the main lobe of a radiation pattern electronically by changing magnitude and phase of the hydrophone. Since there are no moving parts in Electronic Steering as compared to Mechanical steering, this method of beam steering is more efficient.
-
-\noindent For $\alpha$ as an incident angle there would be a delay in receiving the wave by different elements, which corresponds to a phase shift given by
+\subsection*{ Linear Frequency Modulated Pulse (LFM) with a rectangular envelope } 
+\addcontentsline{toc}{subsection}{Linear Frequency Modulated Pulse (LFM) with a rectangular envelope}
+\noindent The equation for this waveform is given by $-$
+\begin{equation}
+ s(t) = \frac{1}{\sqrt{T}}1_{(-T/2,T/2)}(t) exp( j\pi k t^{2})
+ \end{equation}
+ \noindent with $k = b/T$. Hence, the ambiguity function is given by
+ \begin{equation} \label{eq4}
+\begin{split}
+\chi(\tau,v) & = \int_{-\infty}^{\infty} s(t) s^{*}(t-\tau) e^{j2\pi vt}dt \\
+& =  \begin{cases} e^{j\pi v \tau} \Big( 1 - \frac{|\tau|}{T} \Big) \frac{sin(\pi (k\tau + v)(T - |\tau|))}{\pi (k\tau + v)(T - |\tau|)}, & \mbox{for $|\tau| \leq T$} \\ 0, & \mbox{elsewhere} \end{cases} \\
+\end{split}
+\end{equation}
+ 
+\subsubsection*{Determining the ambiguity function for a Linear Frequency Modulated Pulse (LFM) with a rectangular envelope} 
+\begin{equation*} 
+s(t) = e^{j(\pi k t^2)} \frac{1}{\sqrt{T}} rect(t) 
+\end{equation*}
+\begin{equation*} 
+\chi(\tau,v) =  \frac{1}{\sqrt{T}} \frac{1}{\sqrt{T}} \int_{-\infty}^{\infty} rect(t) rect(t-\tau) e^{j(\pi kt^2)} e^{-j(\pi k {(t-\tau)}^2)}e^{j(2\pi kvt)} dt
+\end{equation*}
+\noindent Replacing: $ t = t^{'} + \frac{\tau}{2}$
+\begin{equation*} 
+\rightarrow \chi(\tau,v) =  \frac{1}{T} \int_{-\infty}^{\infty} rect(t^{'} + \frac{\tau}{2}) rect(t^{'} - \frac{\tau}{2}) e^{j(\pi k({t^{'} + \frac{\tau}{2}})^2)} e^{-j(\pi k {(t^{'} - \frac{\tau}{2})}^2)} e^{j(2\pi kv(t^{'}+\frac{\tau}{2}))} dt^{'}
+\end{equation*}
+\noindent Since ${(A+B)}^{2} - {(A-B)}^{2} = 4AB$
+\begin{equation} 
+\begin{split}
+e^{j(\pi k({t^{'} + \frac{\tau}{2}})^2)}e^{-j(\pi k {(t^{'} - \frac{\tau}{2})}^2)} & = e^{j\Big(\pi k {(t^{'} + \frac{\tau}{2}})^{2} - {(t^{'} - \frac{\tau}{2}})^{2} \Big)}\\
+& = e^{j(4\pi k t^{'} \frac{\tau}{2})} \\
+& = e^{j(2\pi k t^{'} \tau)}
+\end{split}
+\end{equation}
+\begin{equation*} 
+\rightarrow \chi(\tau,v) =  \frac{1}{T} \int_{-\infty}^{\infty} rect(t^{'}+\frac{\tau}{2}) rect(t^{'}-\frac{\tau}{2}) e^{j(2\pi k t^{'} \tau)} e^{j(2\pi k t^{'})} dt^{'}
+\end{equation*}
+\begin{equation*} 
+\rightarrow \chi(\tau,v) =  \frac{1}{T} \int_{-\infty}^{\infty} rect(t^{'}+\frac{\tau}{2}) rect(t^{'}-\frac{\tau}{2}) e^{j(2\pi (k\tau+v) t^{'})}  dt^{'}
+\end{equation*}
+\noindent Let $d(t) = \frac{T - |\tau|}{2}$
+\begin{equation*} 
+\rightarrow \chi(\tau,v) =  \frac{1}{T} \int_{-d(t)}^{d(t)} e^{j(2\pi (k\tau+v) t^{'})}  dt^{'}
+\end{equation*}
+\noindent Let $d(t) = \frac{T - |\tau|}{2}$
+\begin{equation*} 
+\rightarrow \chi(\tau,v) =  \frac{1}{T} e^{j(\pi v\tau)} \frac{e^{j(2\pi(k\pi + v)(d(t) - (-d(t))))}}{j(2\pi(k\tau + v)(d(t) - (-d(t))))}
+\end{equation*}
+\begin{equation*} 
+\rightarrow \chi(\tau,v) =  \frac{1}{T} e^{j(\pi v\tau)} d(t^{'}) \frac{j2sin(2\pi(k\pi + v)(\frac{T-|\tau|}{2}))}{j(2\pi(k\tau + v)(\frac{T-|\tau|}{2}))}
+\end{equation*}
 \begin{equation*}
- \varphi = knd sin(\alpha)
- \end{equation*}
- \begin{equation*}
- Q_{n} = e^{j\varphi} = e^{knd sin(\alpha)}
- \end{equation*}
- \noindent where \textit{$Q_{n}$} denote the amplitude of the $n^{th}$ point source with $n = 1,...,N.$  The complex beam pattern is defined as 
- \begin{equation*}
- \tilde{b}(\beta) = \frac{1}{\hat{Q}} \sum_{n=0}^{N-1}Q_{n} e^{j{y_{n}^{'}} sin\beta}
- \end{equation*}
+\chi(\tau,v) =  \begin{cases} e^{j\pi v \tau} \Big( 1 - \frac{|\tau|}{T} \Big) \frac{sin(\pi (k\tau + v)(T - |\tau|))}{\pi (k\tau + v)(T - |\tau|)}, & \mbox{for $|\tau| \leq T$} \\ 0, & \mbox{elsewhere} \end{cases} 
+\end{equation*}
+\noindent Hence proved
+
+\subsection*{ Linear Frequency Modulated Pulse (LFM) with a Gaussian envelope } 
+\addcontentsline{toc}{subsection}{Linear Frequency Modulated Pulse (LFM) with a Gaussian envelope}
+\noindent The equation for this waveform is given by $-$
+\begin{equation}
+ s(t) = \frac{1}{\sqrt[4]{\pi \sigma ^{2}}} exp \Bigg( - \frac{t^2}{2\sigma ^{2}} + j\pi k t^2 \Bigg)
+ \end{equation}
+ \noindent where $k$ determines the slope of the LFM with $|k| = b/T$. After some manipulations, we obtain
+\begin{equation} \label{eq6}
+\begin{split}
+\chi(\tau,v) & = \int_{-\infty}^{\infty} s(t) s^{*}(t-\tau) e^{j2\pi vt}dt \\
+& =  e^{j\pi vt} exp \Big( -\tau ^{2} / (4 \sigma ^{2}) - \pi \sigma ^{2} {(k\tau + v)}^{2} \Big) \\
+\end{split}
+\end{equation}
+
  

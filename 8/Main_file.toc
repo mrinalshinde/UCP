@@ -1,15 +1,15 @@
 \contentsline {chapter}{Introduction}{2}
 \contentsline {chapter}{Theory}{3}
-\contentsline {section}{\numberline {0.1} Antenna Beam Pattern }{3}
-\contentsline {subsection}{\numberline {0.1.1} Beam Forming }{4}
-\contentsline {subsection}{\numberline {0.1.2} Amplitude Shading }{5}
-\contentsline {subsection}{\numberline {0.1.3} Parabolic Phase Shading (Beam Shaping) }{5}
-\contentsline {subsection}{\numberline {0.1.4} Linear Phase Shading (Electronic Steering) }{5}
-\contentsline {chapter}{Experimental Research}{7}
-\contentsline {section}{Rectangular Pulse }{7}
-\contentsline {section}{Linear Frequency Modulated pulse with a Rectangular Envelope }{9}
-\contentsline {section}{Linear Frequency Modulated pulse with a Gaussian Envelope }{11}
-\contentsline {chapter}{Conclusion}{13}
-\contentsline {chapter}{Appendix}{14}
-\contentsline {section}{ MATLAB code to plot the spectrums for different waveforms }{14}
-\contentsline {section}{MATLAB code to plot the ambiguity functions for different waveforms }{17}
+\contentsline {section}{Ambiguity Function}{3}
+\contentsline {section}{Ambiguity Function of particular waveforms}{5}
+\contentsline {subsection}{Rectangular Pulse}{5}
+\contentsline {subsection}{Linear Frequency Modulated Pulse (LFM) with a rectangular envelope}{6}
+\contentsline {subsection}{Linear Frequency Modulated Pulse (LFM) with a Gaussian envelope}{8}
+\contentsline {chapter}{Experimental Research}{9}
+\contentsline {section}{Rectangular Pulse }{9}
+\contentsline {section}{Linear Frequency Modulated pulse with a Rectangular Envelope }{11}
+\contentsline {section}{Linear Frequency Modulated pulse with a Gaussian Envelope }{13}
+\contentsline {chapter}{Conclusion}{15}
+\contentsline {chapter}{Appendix}{16}
+\contentsline {section}{MATLAB code to plot the spectrums for different waveforms }{16}
+\contentsline {section}{MATLAB code to plot the ambiguity functions for different waveforms }{19}
