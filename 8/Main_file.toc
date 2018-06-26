@@ -7,9 +7,9 @@
 \contentsline {subsection}{Linear Frequency Modulated Pulse (LFM) with a Gaussian envelope}{8}
 \contentsline {chapter}{Experimental Research}{9}
 \contentsline {section}{Rectangular Pulse }{9}
-\contentsline {section}{Linear Frequency Modulated pulse with a Rectangular Envelope }{11}
-\contentsline {section}{Linear Frequency Modulated pulse with a Gaussian Envelope }{13}
-\contentsline {chapter}{Conclusion}{15}
-\contentsline {chapter}{Appendix}{16}
-\contentsline {section}{MATLAB code to plot the spectrums for different waveforms }{16}
-\contentsline {section}{MATLAB code to plot the ambiguity functions for different waveforms }{19}
+\contentsline {section}{Linear Frequency Modulated pulse with a Rectangular Envelope }{12}
+\contentsline {section}{Linear Frequency Modulated pulse with a Gaussian Envelope }{14}
+\contentsline {chapter}{Conclusion}{16}
+\contentsline {chapter}{Appendix}{17}
+\contentsline {section}{MATLAB code to plot the spectrums for different waveforms }{17}
+\contentsline {section}{MATLAB code to plot the ambiguity functions for different waveforms }{20}
